@@ -49,8 +49,8 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
       >
         <source src="/video/firo-hero.mp4" type="video/mp4" />
       </video>
-      <div className="pointer-events-none absolute inset-0 bg-[#F0EEDF]/76" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#F0EEDF]/88 via-[#F0EEDF]/72 to-[#F0EEDF]/90" />
+      <div className="pointer-events-none absolute inset-0 bg-[#F0EEDF]/58" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#F0EEDF]/70 via-[#F0EEDF]/52 to-[#F0EEDF]/74" />
 
       <Container>
         <div className="relative z-10 flex min-h-[100vh] items-center py-24 md:py-28">
