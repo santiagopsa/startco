@@ -30,9 +30,14 @@ export default function Nav({ locale = "en" }: NavProps) {
     <div className="fixed inset-x-0 top-0 z-50 border-b border-firo-line bg-[#F0EEDF]/92 text-firo-text backdrop-blur-xl">
       <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between px-6 md:px-10">
         <a href={homeHref} className="inline-flex items-center" aria-label="Go to main page">
-          <span className="text-base font-semibold tracking-tight md:text-lg">
-            Vittiva Coworking
-          </span>
+          <Image
+            src="/assets/brand/firo-logo.png"
+            alt="Vittiva Coworking logo"
+            width={132}
+            height={40}
+            className="h-8 w-auto"
+            priority
+          />
         </a>
 
         <nav className="hidden items-center gap-7 text-sm text-firo-muted md:flex">
@@ -41,16 +46,6 @@ export default function Nav({ locale = "en" }: NavProps) {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a href={homeHref} className="inline-flex items-center" aria-label="Vittiva logo">
-            <Image
-              src="/assets/brand/firo-logo.png"
-              alt="Vittiva Coworking logo"
-              width={120}
-              height={36}
-              className="h-8 w-auto"
-              priority
-            />
-          </a>
           <a
             href={switchHref}
             className="tabular rounded-lg border border-firo-line px-2.5 py-1 text-xs text-firo-muted hover:border-[#435C3D] hover:text-firo-text"
