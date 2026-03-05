@@ -12,16 +12,16 @@ export default function Join({ locale = "en" }: JoinProps) {
         <div className="rounded-xl border border-[#CDD4D4] bg-[#F6F4E8] p-8 shadow-soft md:p-10">
           <div className="grid gap-8 md:grid-cols-2 md:items-start">
             <div>
-              <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Reserva tu espacio" : "Book your workspace"}</div>
+              <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Publica tu vacante" : "Start your hiring search"}</div>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 {isEs
-                  ? "Únete a Vittiva Coworking en Manizales"
-                  : "Join Vittiva Coworking in Manizales"}
+                  ? "Activa tu contratación con Vittiva + PeakU"
+                  : "Activate hiring with Vittiva + PeakU"}
               </h2>
               <p className="mt-3 text-firo-muted">
                 {isEs
-                  ? "Completa el formulario y te contactamos para recomendarte el plan ideal y agendar tu visita."
-                  : "Fill out the form and we will contact you to recommend the best plan and schedule your tour."}
+                  ? "Completa este formulario y nuestro equipo activará tu ruta de publicación para atraer talento especializado."
+                  : "Fill out the form and our team will activate your publishing flow to reach specialized talent."}
               </p>
             </div>
 
@@ -31,7 +31,7 @@ export default function Join({ locale = "en" }: JoinProps) {
                 method="POST"
                 className="space-y-4"
               >
-                <input type="hidden" name="_subject" value="Vittiva Coworking - solicitud de información" />
+                <input type="hidden" name="_subject" value="Vittiva + PeakU - solicitud para publicar vacante" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
 
@@ -77,14 +77,14 @@ export default function Join({ locale = "en" }: JoinProps) {
 
                 <div>
                   <label className="mb-1 block text-sm font-medium text-firo-text" htmlFor="vacancy">
-                    {isEs ? "Plan de interés" : "Preferred plan"}
+                    {isEs ? "Cargo a publicar" : "Opening to publish"}
                   </label>
                   <input
                     id="vacancy"
                     name="vacancy"
                     required
                     className="tabular w-full rounded-md border border-[#CDD4D4] bg-[#F6F4E8] px-4 py-3 text-sm text-firo-text outline-none focus:border-[#435C3D]"
-                    placeholder={isEs ? "Ej: Plan mensual cowork" : "Ex: Monthly cowork plan"}
+                    placeholder={isEs ? "Ej: Desarrollador Full Stack" : "Ex: Full Stack Developer"}
                   />
                 </div>
 
@@ -92,7 +92,7 @@ export default function Join({ locale = "en" }: JoinProps) {
                   type="submit"
                   className="tabular w-full rounded-md bg-[#435C3D] px-5 py-3 text-sm font-semibold text-[#F0EEDF] transition hover:brightness-95"
                 >
-                  {isEs ? "Solicitar información" : "Request information"}
+                  {isEs ? "Publicar oferta en PeakU" : "Launch your opening on PeakU"}
                 </button>
               </form>
             </div>
@@ -100,8 +100,8 @@ export default function Join({ locale = "en" }: JoinProps) {
 
           <div className="mt-6 text-xs text-firo-muted">
             {isEs
-              ? "Nuestro equipo te responderá para confirmar disponibilidad, tarifas y beneficios."
-              : "Our team will reply with availability, pricing, and membership benefits."}
+              ? "Te contactamos para validar tu perfil y activar la ruta exclusiva de publicación en PeakU."
+              : "We will contact you to validate your profile and activate your exclusive publishing lane in PeakU."}
           </div>
         </div>
       </Container>

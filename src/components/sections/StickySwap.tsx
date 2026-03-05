@@ -5,16 +5,16 @@ import Container from "../ui/Container";
 import { ensureGsap } from "@/lib/gsap";
 
 const cards = [
-  { title: "Natural and productive environment", desc: "Warm lighting, comfortable furniture, and calm spaces to maintain deep focus." },
-  { title: "Reliable connectivity", desc: "Stable high-speed internet for calls, remote work, and daily collaboration." },
-  { title: "Professional meeting spaces", desc: "Host clients and teams in rooms prepared for presentations and strategic sessions." },
-  { title: "Community that supports growth", desc: "Share ideas, opportunities, and partnerships with people building in Manizales." },
+  { title: "Complete candidate intelligence", desc: "Every finalist includes technical results, behavioral signal, and hiring recommendation." },
+  { title: "Faster shortlisting", desc: "Assessment-backed filtering helps your team focus only on high-fit profiles." },
+  { title: "Higher decision confidence", desc: "Hiring managers compare candidates with objective evidence, not only CVs." },
+  { title: "Alliance advantage", desc: "Vittiva companies publish through PeakU with a differentiated, high-signal channel." },
 ];
 const cardsEs = [
-  { title: "Ambiente natural y productivo", desc: "Iluminación cálida, mobiliario cómodo y espacios tranquilos para enfocarte mejor." },
-  { title: "Conectividad confiable", desc: "Internet de alta velocidad y estabilidad para reuniones y trabajo remoto diario." },
-  { title: "Salas profesionales", desc: "Recibe clientes y equipos en espacios listos para presentaciones y sesiones estratégicas." },
-  { title: "Comunidad que impulsa", desc: "Comparte ideas, oportunidades y alianzas con personas que construyen en Manizales." },
+  { title: "Inteligencia completa por candidato", desc: "Cada finalista incluye resultados técnicos, señal de personalidad y recomendación de contratación." },
+  { title: "Shortlist más rápido", desc: "El filtrado con evaluaciones permite enfocar al equipo en perfiles de mayor ajuste." },
+  { title: "Más confianza al decidir", desc: "Los líderes comparan candidatos con evidencia objetiva, no solo con hoja de vida." },
+  { title: "Ventaja de la alianza", desc: "Las empresas de Vittiva publican en PeakU por un canal diferenciado y de mayor señal." },
 ];
 
 type StickySwapProps = {
@@ -60,12 +60,12 @@ export default function StickySwap({ locale = "en" }: StickySwapProps) {
           <div className="md:sticky md:top-24 md:h-fit">
             <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Resultados esperados" : "Expected outcomes"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Lo que obtienes al elegir Vittiva Coworking" : "What you get at Vittiva Coworking"}
+              {isEs ? "Lo que desbloquea tu equipo con Vittiva + PeakU" : "What your team unlocks with Vittiva + PeakU"}
             </h2>
             <p className="mt-4 max-w-lg text-firo-muted">
               {isEs
-                ? "Más que un escritorio: un lugar pensado para producir, conectar y hacer crecer tus proyectos."
-                : "More than a desk: a place built to produce, connect, and grow your projects."}
+                ? "No es solo más volumen de postulaciones. Es mejor filtro y claridad para tomar decisiones de contratación."
+                : "This is not just more applicants. It is better filtering and clearer hiring decisions."}
             </p>
           </div>
 

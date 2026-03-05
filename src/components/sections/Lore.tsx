@@ -40,31 +40,31 @@ export default function Lore({ locale = "en" }: LoreProps) {
       <Container>
         <div className="max-w-4xl">
           <div data-reveal className="tabular text-sm font-semibold text-[#435C3D]">
-            {isEs ? "Beneficios de Vittiva" : "Vittiva benefits"}
+            {isEs ? "Beneficios para la alianza Vittiva + PeakU" : "Benefits for Vittiva + PeakU alliance"}
           </div>
           <h2 data-reveal className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
             {isEs
-              ? "Todo lo que necesitas para trabajar comodo y enfocado."
-              : "Everything you need to work comfortably and stay focused."}
+              ? "Publica vacantes con una ventaja real de selección."
+              : "Post openings with a real hiring edge."}
           </h2>
           <p data-reveal className="mt-4 text-firo-muted">
             {isEs
-              ? "En Vittiva Coworking, en Manizales, encuentras espacios funcionales, internet estable y un ambiente profesional para impulsar tus proyectos."
-              : "At Vittiva Coworking in Manizales, you get functional spaces, reliable internet, and a professional environment that helps projects move forward."}
+              ? "Las empresas vinculadas a Vittiva obtienen acceso a la infraestructura de PeakU para contratar talento especializado en LatAm con mejor señal de evaluación."
+              : "Companies connected through Vittiva get access to PeakU's hiring infrastructure to attract specialized LatAm talent with better assessment signal."}
           </p>
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             <Card
-              title={isEs ? "Espacios flexibles" : "Flexible spaces"}
-              desc={isEs ? "Elige entre puestos por día, planes mensuales y salas privadas según tu ritmo de trabajo." : "Choose daily passes, monthly plans, and private rooms based on your work style."}
+              title={isEs ? "Talento especializado, a escala" : "Specialized talent, at scale"}
+              desc={isEs ? "Conecta con perfiles de alto nivel para roles críticos de tecnología y crecimiento." : "Reach high-level profiles for critical technology and growth positions."}
             />
             <Card
-              title={isEs ? "Ubicación estratégica" : "Strategic location"}
-              desc={isEs ? "Estamos en Manizales con acceso fácil, cerca de servicios y zonas comerciales." : "Located in Manizales with easy access and close to key city services."}
+              title={isEs ? "Más volumen con calidad" : "More volume with quality"}
+              desc={isEs ? "Atrae más aplicaciones por vacante sin perder foco en candidatos de alto ajuste." : "Attract stronger application flow per opening without sacrificing candidate fit."}
             />
             <Card
-              title={isEs ? "Comunidad activa" : "Active community"}
-              desc={isEs ? "Conecta con otros profesionales, emprendedores y equipos en eventos y espacios compartidos." : "Connect with professionals, founders, and teams through events and shared spaces."}
+              title={isEs ? "Evaluación con señal real" : "Signal-rich evaluation"}
+              desc={isEs ? "Usa evaluaciones técnicas y de comportamiento para shortlist más confiables." : "Use technical and behavioral assessments to build stronger shortlists."}
             />
           </div>
         </div>

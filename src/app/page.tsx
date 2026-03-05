@@ -8,23 +8,23 @@ import Rewards from "@/components/sections/Rewards";
 import Join from "@/components/sections/Join";
 
 export const metadata: Metadata = {
-  title: "Vittiva Coworking Manizales | Espacios de trabajo flexibles",
+  title: "Vittiva x PeakU | Hire Better, Move Faster",
   description:
-    "Vittiva Coworking en Manizales ofrece espacios de trabajo flexibles, salas de reuniones y una comunidad activa para freelancers, emprendedores y equipos.",
+    "Alianza Vittiva + PeakU para contratar talento especializado en LatAm con evaluaciones y reportes por candidato.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Vittiva Coworking Manizales",
+    title: "Vittiva x PeakU | Specialized Hiring Alliance",
     description:
-      "Conoce Vittiva Coworking en Manizales: espacios cómodos, internet de alta velocidad y comunidad para crecer.",
+      "Publica vacantes con Vittiva y accede a talento especializado con respaldo de evaluación PeakU.",
     url: "/",
     images: [
       {
         url: "/assets/hero/dashboard.png",
         width: 1200,
         height: 800,
-        alt: "Vittiva Coworking en Manizales",
+        alt: "Vittiva x PeakU hiring dashboard",
       },
     ],
   },

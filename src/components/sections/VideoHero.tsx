@@ -61,22 +61,22 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
             </div>
             <div className="inline-flex items-center gap-2 rounded-full border border-firo-line bg-white/70 px-4 py-2 text-sm text-firo-text">
               <span className="h-2 w-2 rounded-full bg-[#435C3D]" />
-              {isEs ? "Coworking en Manizales" : "Coworking in Manizales"}
+              {isEs ? "Vittiva + PeakU | Alianza de contratación" : "Vittiva + PeakU | Hiring alliance"}
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-6xl">
               {isEs ? (
                 <>
-                  Trabaja, crea y conecta en
+                  Publica tus vacantes desde Vittiva y recibe
                   <span className="text-[#A7683D]">
-                    {" "}Vittiva Coworking.
+                    {" "}talento especializado con respaldo de PeakU.
                   </span>
                 </>
               ) : (
                 <>
-                  Work, create, and connect at
+                  Stop hiring blind. Launch your openings through Vittiva and get
                   <span className="text-[#A7683D]">
-                    {" "}Vittiva Coworking.
+                    {" "}specialized talent powered by PeakU.
                   </span>
                 </>
               )}
@@ -84,8 +84,8 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-firo-muted md:text-lg">
               {isEs
-                ? "Un espacio flexible en Manizales para freelancers, equipos y emprendedores. Oficinas compartidas, salas de reuniones y una comunidad que impulsa tu crecimiento."
-                : "A flexible space in Manizales for freelancers, teams, and founders. Shared workspaces, meeting rooms, and a community that helps your projects grow."}
+                ? "La alianza Vittiva + PeakU conecta tu empresa con talento especializado en LatAm, evaluaciones técnicas y reportes para decidir con más claridad."
+                : "The Vittiva + PeakU alliance gives your company access to specialized LatAm talent, technical assessments, and decision-ready candidate reports."}
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -93,28 +93,28 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
                 href="#join"
                 className="tabular rounded-lg bg-[#435C3D] px-5 py-3 text-sm font-semibold text-[#F0EEDF] shadow-soft transition hover:brightness-95"
               >
-                {isEs ? "Agenda tu visita" : "Book a tour"}
+                {isEs ? "Publicar oferta en PeakU" : "Launch your opening on PeakU"}
               </a>
               <a
                 href="#beneficios"
                 className="tabular rounded-lg border border-[#435C3D] px-5 py-3 text-sm font-semibold text-[#435C3D] transition hover:bg-white/70"
               >
-                {isEs ? "Conocer espacios" : "Explore spaces"}
+                {isEs ? "Ver beneficios" : "View benefits"}
               </a>
             </div>
 
             <div className="mt-10 grid max-w-2xl grid-cols-1 gap-4 text-sm md:grid-cols-3">
               <div className="rounded-lg border border-firo-line bg-[#F6F4E8] p-4 shadow-soft">
-                <div className="text-firo-muted">{isEs ? "Puestos de trabajo" : "Work stations"}</div>
+                <div className="text-firo-muted">{isEs ? "Aplicaciones por vacante" : "Applications per opening"}</div>
                 <div className="tabular mt-1 text-xl font-semibold text-firo-text">+<span data-counter>0</span></div>
               </div>
               <div className="rounded-lg border border-firo-line bg-[#F6F4E8] p-4 shadow-soft">
-                <div className="text-firo-muted">{isEs ? "Salas de reunión" : "Meeting rooms"}</div>
-                <div className="mt-1 text-xl font-semibold text-[#435C3D]">{isEs ? "Equipadas" : "Fully equipped"}</div>
+                <div className="text-firo-muted">{isEs ? "Base de talento" : "Talent network"}</div>
+                <div className="mt-1 text-xl font-semibold text-[#435C3D]">{isEs ? "Especializado" : "Specialized"}</div>
               </div>
               <div className="rounded-lg border border-firo-line bg-[#F6F4E8] p-4 shadow-soft">
-                <div className="text-firo-muted">{isEs ? "Comunidad" : "Community"}</div>
-                <div className="mt-1 text-xl font-semibold text-[#A7683D]">{isEs ? "Networking y eventos" : "Networking and events"}</div>
+                <div className="text-firo-muted">{isEs ? "Calidad de selección" : "Screening quality"}</div>
+                <div className="mt-1 text-xl font-semibold text-[#A7683D]">{isEs ? "Pruebas + reportes" : "Assessments + reports"}</div>
               </div>
             </div>
           </div>

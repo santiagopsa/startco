@@ -7,53 +7,53 @@ import { ensureGsap } from "@/lib/gsap";
 const levels = [
   {
     level: "Step 1",
-    title: "Choose your plan",
-    earns: "Daily pass, weekly, or monthly",
-    does: "Select the option that matches your pace and team size",
+    title: "Launch your opening",
+    earns: "Publish through Vittiva in minutes",
+    does: "Activate the PeakU hiring lane for your team",
   },
   {
     level: "Step 2",
-    title: "Reserve your space",
-    earns: "Cowork desk or meeting room",
-    does: "Book quickly with support from our local team",
+    title: "Attract top applicants",
+    earns: "Receive stronger candidate flow",
+    does: "Source specialized LatAm profiles for key roles",
   },
   {
     level: "Step 3",
-    title: "Start working",
-    earns: "Fast internet and comfortable setup",
-    does: "Focus from day one in a professional environment",
+    title: "Filter with real signal",
+    earns: "Run technical and behavioral assessments",
+    does: "Prioritize candidates with objective evidence",
   },
   {
     level: "Step 4",
-    title: "Grow with community",
-    earns: "Networking and collaboration opportunities",
-    does: "Build valuable connections in Manizales",
+    title: "Decide with confidence",
+    earns: "Get a report for every finalist",
+    does: "Compare fit, skills, and recommendation in one place",
   },
 ];
 const levelsEs = [
   {
     level: "Paso 1",
-    title: "Elige tu plan",
-    earns: "Pase diario, semanal o mensual",
-    does: "Escoge la modalidad que se ajusta a tu ritmo y equipo",
+    title: "Publica tu vacante",
+    earns: "Activa tu publicación desde Vittiva",
+    does: "Abre la ruta de contratación con PeakU para tu empresa",
   },
   {
     level: "Paso 2",
-    title: "Reserva tu espacio",
-    earns: "Puesto de cowork o sala de reuniones",
-    does: "Agenda fácilmente con apoyo de nuestro equipo",
+    title: "Recibe candidatos top",
+    earns: "Obtén más flujo de postulaciones",
+    does: "Accede a talento especializado en LatAm para roles clave",
   },
   {
     level: "Paso 3",
-    title: "Empieza a trabajar",
-    earns: "Internet rápido y ambiente cómodo",
-    does: "Enfócate desde el primer día en un entorno profesional",
+    title: "Filtra con señal real",
+    earns: "Aplica pruebas técnicas y de personalidad",
+    does: "Prioriza perfiles con evidencia objetiva",
   },
   {
     level: "Paso 4",
-    title: "Crece en comunidad",
-    earns: "Eventos y oportunidades de networking",
-    does: "Conecta con profesionales y emprendedores de Manizales",
+    title: "Decide con confianza",
+    earns: "Recibe reporte por cada finalista",
+    does: "Compara ajuste, habilidades y recomendación en un solo lugar",
   },
 ];
 
@@ -96,12 +96,12 @@ export default function Levels({ locale = "en" }: LevelsProps) {
           <div className="md:sticky md:top-28">
             <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Proceso" : "Process"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Así funciona Vittiva Coworking" : "How Vittiva Coworking works"}
+              {isEs ? "Cómo contratan mejor las empresas con Vittiva + PeakU" : "How teams hire better with Vittiva + PeakU"}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
-                ? "Un proceso simple para que encuentres el espacio ideal y empieces a producir sin fricción."
-                : "A simple flow so you find the right space and start producing without friction."}
+                ? "Combinamos alcance, evaluación y reportes para que cada vacante se convierta en una decisión más rápida y mejor respaldada."
+                : "We combine reach, assessments, and reporting so each opening becomes a faster, better-backed decision."}
             </p>
           </div>
 

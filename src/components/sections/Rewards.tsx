@@ -12,27 +12,27 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
-            <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Vittiva Coworking Manizales" : "Vittiva Coworking Manizales"}</div>
+            <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Alianza Vittiva + PeakU" : "Vittiva + PeakU alliance"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Espacios que combinan comodidad, diseño y productividad" : "Spaces that combine comfort, design, and productivity"}
+              {isEs ? "Toda la información de candidatos en un solo sistema" : "All candidate intelligence in one system"}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
-                ? "Diseñamos cada área para que trabajes con enfoque: zonas compartidas, salas para reuniones y una comunidad profesional en el corazón de Manizales."
-                : "Each area is designed for focused work: shared zones, meeting rooms, and a professional community in the heart of Manizales."}
+                ? "Tu equipo accede a perfiles completos, resultados de evaluación y recomendaciones para priorizar mejores entrevistas."
+                : "Your team gets complete profiles, assessment outcomes, and recommendations to prioritize stronger interviews."}
             </p>
 
             <div className="mt-8 grid gap-3 md:grid-cols-3">
-              <Loot title={isEs ? "Internet" : "Internet"} value={isEs ? "Alta velocidad" : "High speed"} />
-              <Loot title={isEs ? "Salas" : "Rooms"} value={isEs ? "Privadas y compartidas" : "Private and shared"} />
-              <Loot title={isEs ? "Ubicación" : "Location"} value={isEs ? "Manizales centro" : "Manizales downtown"} accent />
+              <Loot title={isEs ? "Alcance de candidatos" : "Candidate reach"} value={isEs ? "200+ por vacante" : "200+ per opening"} />
+              <Loot title={isEs ? "Evaluación técnica" : "Technical assessment"} value={isEs ? "Guiada por PeakU" : "Guided by PeakU"} />
+              <Loot title={isEs ? "Reporte final" : "Final report"} value={isEs ? "Por candidato" : "Per candidate"} accent />
             </div>
           </div>
 
           <div className="relative rounded-lg border border-[#CDD4D4] bg-[#F6F4E8] p-4 shadow-soft">
             <Image
               src="/assets/hero/dashboard.png"
-              alt="Vittiva Coworking spaces"
+              alt="PeakU dashboard"
               width={1400}
               height={900}
               className="relative w-full rounded-md"

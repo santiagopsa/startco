@@ -50,7 +50,7 @@ export default function Nav({ locale = "en" }: NavProps) {
             href={joinHref}
             className="tabular rounded-lg bg-[#435C3D] px-3.5 py-2 text-sm font-semibold text-[#F0EEDF] transition hover:brightness-95 md:px-4"
           >
-            {isEs ? "Agenda tu visita" : "Book a tour"}
+            {isEs ? "Publicar oferta en PeakU" : "Start hiring on PeakU"}
           </a>
         </div>
       </div>
