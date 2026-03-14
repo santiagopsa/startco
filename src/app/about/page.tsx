@@ -50,14 +50,14 @@ export default function AboutPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <h2 className="text-2xl font-semibold tracking-tight">Who FIRO is for</h2>
-              <p className="mt-3 text-firo-muted">
+              <p className="mt-3 text-[#6B7280]">
                 Investors looking for exposure to robotics cashflow, and technology enthusiasts
                 who want to participate in the transition toward robotic operations.
               </p>
             </div>
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <h2 className="text-2xl font-semibold tracking-tight">Problem we solve</h2>
-              <p className="mt-3 text-firo-muted">
+              <p className="mt-3 text-[#6B7280]">
                 Robotics demand is increasing, but operating execution and financing are fragmented.
                 FIRO unifies leasing structure, deployment, operator workflows, risk controls, and payout visibility.
               </p>
@@ -74,19 +74,19 @@ export default function AboutPage() {
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">1. Finance lease</div>
-              <p className="mt-2 text-firo-muted">
+              <p className="mt-2 text-[#6B7280]">
                 Investor enters by funding a monthly lease structure.
               </p>
             </div>
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">2. Deploy</div>
-              <p className="mt-2 text-firo-muted">
+              <p className="mt-2 text-[#6B7280]">
                 FIRO places units in demand environments with operator-led execution.
               </p>
             </div>
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">3. Track & payout</div>
-              <p className="mt-2 text-firo-muted">
+              <p className="mt-2 text-[#6B7280]">
                 Gross, operating net, lease coverage, and payout splits are tracked monthly.
               </p>
             </div>
@@ -99,12 +99,12 @@ export default function AboutPage() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Current status
           </h2>
-          <p className="mt-4 max-w-3xl text-firo-muted">
+          <p className="mt-4 max-w-3xl text-[#6B7280]">
             We are currently onboarding investors and prioritizing deployment in the events industry,
             while opening conversations with strategic capital partners and operators.
           </p>
           <h3 className="mt-10 text-2xl font-semibold tracking-tight">Thesis / vision</h3>
-          <p className="mt-3 max-w-3xl text-firo-muted">
+          <p className="mt-3 max-w-3xl text-[#6B7280]">
             Robotics will become core operating infrastructure. Our thesis is that leasing-backed
             financing plus disciplined operations creates durable, transparent, and scalable cashflow.
           </p>
@@ -117,7 +117,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
               Contact FIRO
             </h2>
-            <p className="mt-3 text-firo-muted">
+            <p className="mt-3 text-[#6B7280]">
               Share your details and we will send the investor overview and next steps.
             </p>
 

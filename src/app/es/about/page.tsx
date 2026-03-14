@@ -51,14 +51,14 @@ export default function AboutPageEs() {
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <h2 className="text-2xl font-semibold tracking-tight">Para quien es FIRO</h2>
-              <p className="mt-3 text-firo-muted">
+              <p className="mt-3 text-[#6B7280]">
                 Para inversionistas que buscan exposicion a cashflow en robotica, y para
                 entusiastas de tecnologia que quieren participar en esta transicion.
               </p>
             </div>
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <h2 className="text-2xl font-semibold tracking-tight">Problema que resolvemos</h2>
-              <p className="mt-3 text-firo-muted">
+              <p className="mt-3 text-[#6B7280]">
                 La demanda existe, pero el financiamiento y la operacion estan fragmentados.
                 FIRO integra estructura de leasing, despliegue, operacion, control de riesgo y visibilidad de pagos.
               </p>
@@ -75,19 +75,19 @@ export default function AboutPageEs() {
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">1. Financiar leasing</div>
-              <p className="mt-2 text-firo-muted">
+              <p className="mt-2 text-[#6B7280]">
                 El inversionista entra financiando una estructura de leasing mensual.
               </p>
             </div>
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">2. Despliegue</div>
-              <p className="mt-2 text-firo-muted">
+              <p className="mt-2 text-[#6B7280]">
                 FIRO coloca unidades en ambientes de demanda con operacion supervisada.
               </p>
             </div>
             <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">3. Seguimiento y pago</div>
-              <p className="mt-2 text-firo-muted">
+              <p className="mt-2 text-[#6B7280]">
                 Se registran bruto, neto operativo, cobertura de leasing y reparto mensual.
               </p>
             </div>
@@ -100,12 +100,12 @@ export default function AboutPageEs() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Estado actual
           </h2>
-          <p className="mt-4 max-w-3xl text-firo-muted">
+          <p className="mt-4 max-w-3xl text-[#6B7280]">
             Hoy estamos buscando inversionistas, idealmente vinculados a la industria de eventos
             y capitalistas estrategicos para escalar despliegue comercial.
           </p>
           <h3 className="mt-10 text-2xl font-semibold tracking-tight">Tesis / vision</h3>
-          <p className="mt-3 max-w-3xl text-firo-muted">
+          <p className="mt-3 max-w-3xl text-[#6B7280]">
             La robotica sera infraestructura operativa. Nuestra tesis es que el financiamiento
             por leasing + operacion disciplinada construye cashflow escalable y transparente.
           </p>
@@ -118,7 +118,7 @@ export default function AboutPageEs() {
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
               Contacto
             </h2>
-            <p className="mt-3 text-firo-muted">
+            <p className="mt-3 text-[#6B7280]">
               Deja tus datos y te compartimos resumen, supuestos y siguientes pasos.
             </p>
 

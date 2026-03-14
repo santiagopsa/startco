@@ -39,7 +39,7 @@ export default function Lore({ locale = "en" }: LoreProps) {
     <section ref={root} id="beneficios" className="bg-white py-28 text-black">
       <Container>
         <div className="max-w-4xl">
-          <div data-reveal className="tabular text-sm font-semibold text-[#435C3D]">
+          <div data-reveal className="tabular text-sm font-semibold text-black">
             {isEs ? "Beneficios para la alianza Tinkko + PeakU" : "Benefits for Tinkko + PeakU alliance"}
           </div>
           <h2 data-reveal className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -47,7 +47,7 @@ export default function Lore({ locale = "en" }: LoreProps) {
               ? "Publica vacantes con una ventaja real de selección."
               : "Post openings with a real hiring edge."}
           </h2>
-          <p data-reveal className="mt-4 text-firo-muted">
+          <p data-reveal className="mt-4 text-[#6B7280]">
             {isEs
               ? "Las empresas vinculadas a Tinkko obtienen acceso a la infraestructura de PeakU para contratar talento especializado en LatAm con mejor señal de evaluación."
               : "Companies connected through Tinkko get access to PeakU's hiring infrastructure to attract specialized LatAm talent with better assessment signal."}
@@ -77,7 +77,7 @@ function Card({ title, desc }: { title: string; desc: string }) {
   return (
     <div data-reveal className="rounded-lg border border-[#E5E7EB] bg-white p-6 shadow-soft">
       <div className="font-semibold">{title}</div>
-      <div className="mt-2 text-sm text-firo-muted">{desc}</div>
+      <div className="mt-2 text-sm text-[#6B7280]">{desc}</div>
     </div>
   );
 }

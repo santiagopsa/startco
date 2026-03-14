@@ -158,18 +158,18 @@ export default function InvestorsPage() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Model and unit economics
           </h2>
-          <p className="mt-4 text-firo-muted">
+          <p className="mt-4 text-[#6B7280]">
             Base scenario where the investor funds lease payments and FIRO manages operations.
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {economics.map((item) => (
               <div key={item.label} className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
-                <div className="text-sm font-semibold text-firo-muted">{item.label}</div>
+                <div className="text-sm font-semibold text-[#6B7280]">{item.label}</div>
                 <div className="mt-2 text-2xl font-semibold tracking-tight">{item.value}</div>
               </div>
             ))}
           </div>
-          <div className="mt-4 text-sm text-firo-muted">
+          <div className="mt-4 text-sm text-[#6B7280]">
             Note: scenario-based projections, not guarantees.
           </div>
         </Container>
@@ -184,7 +184,7 @@ export default function InvestorsPage() {
             {risks.map((item) => (
               <div key={item.risk} className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
                 <div className="text-lg font-semibold">{item.risk}</div>
-                <div className="mt-2 text-firo-muted">{item.mitigation}</div>
+                <div className="mt-2 text-[#6B7280]">{item.mitigation}</div>
               </div>
             ))}
           </div>
@@ -196,7 +196,7 @@ export default function InvestorsPage() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Competitive map
           </h2>
-          <p className="mt-4 text-firo-muted">
+          <p className="mt-4 text-[#6B7280]">
             Neutral comparison of current market approaches.
           </p>
           <div className="mt-8 overflow-x-auto rounded-2xl border border-[#E5E7EB] bg-white">
@@ -212,8 +212,8 @@ export default function InvestorsPage() {
                 {competitors.map((c) => (
                   <tr key={c.model} className="border-b border-[#E5E7EB] last:border-b-0">
                     <td className="px-5 py-4 font-medium">{c.model}</td>
-                    <td className="px-5 py-4 text-firo-muted">{c.strengths}</td>
-                    <td className="px-5 py-4 text-firo-muted">{c.limits}</td>
+                    <td className="px-5 py-4 text-[#6B7280]">{c.strengths}</td>
+                    <td className="px-5 py-4 text-[#6B7280]">{c.limits}</td>
                   </tr>
                 ))}
               </tbody>
@@ -229,7 +229,7 @@ export default function InvestorsPage() {
             {faqs.map((item) => (
               <div key={item.q} className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
                 <div className="text-lg font-semibold">{item.q}</div>
-                <p className="mt-2 text-firo-muted">{item.a}</p>
+                <p className="mt-2 text-[#6B7280]">{item.a}</p>
               </div>
             ))}
           </div>
@@ -242,7 +242,7 @@ export default function InvestorsPage() {
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
               Investor contact
             </h2>
-            <p className="mt-3 text-firo-muted">
+            <p className="mt-3 text-[#6B7280]">
               Share your details and we will send the investor brief with assumptions and next steps.
             </p>
 
@@ -284,7 +284,7 @@ export default function InvestorsPage() {
               </button>
             </form>
 
-            <div className="mt-4 text-xs text-firo-muted">
+            <div className="mt-4 text-xs text-[#6B7280]">
               Scenario-based projections. Not a guarantee of returns.
             </div>
           </div>

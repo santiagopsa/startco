@@ -53,7 +53,7 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
                 ? "Cuando cambia la forma de presentar candidatos, cambia la conversacion."
                 : "When candidate presentation changes, the conversation changes."}
             </h2>
-            <p className="mt-4 text-firo-muted">
+            <p className="mt-4 text-[#6B7280]">
               {isEs
                 ? "Usa este esquema para convertir una recomendacion en una conversacion con contexto, evidencia y criterios compartidos."
                 : "Use this structure to turn a recommendation into a conversation with context, evidence, and shared criteria."}
@@ -96,9 +96,9 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
                 const investor = Math.max(0, distributable * investorShare);
                 return (
                   <div key={s.name} className="rounded-2xl border border-[#E5E7EB] bg-white p-4">
-                    <div className="text-xs font-semibold text-firo-muted">{s.name}</div>
+                    <div className="text-xs font-semibold text-[#6B7280]">{s.name}</div>
                     <div className="mt-1 text-lg font-semibold">${Math.round(investor).toLocaleString()}</div>
-                    <div className="mt-1 text-xs text-firo-muted">
+                    <div className="mt-1 text-xs text-[#6B7280]">
                       {isEs
                         ? `Escenario de respaldo con ${s.days} evidencias y claridad ${s.rate}`
                         : `Support scenario at ${s.days} evidence points and clarity ${s.rate}`}
@@ -110,41 +110,41 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
           </div>
 
           <div className="rounded-3xl border border-[#E5E7EB] bg-white p-8 text-black shadow-soft">
-            <div className="text-sm text-firo-muted">{isEs ? "Indicador estimado de respaldo interno" : "Estimated internal support indicator"}</div>
+            <div className="text-sm text-[#6B7280]">{isEs ? "Indicador estimado de respaldo interno" : "Estimated internal support indicator"}</div>
             <div className="mt-2 text-4xl font-semibold tracking-tight">
               ${Math.round(result.investor).toLocaleString()}
             </div>
-            <div className="mt-2 text-firo-muted">
+            <div className="mt-2 text-[#6B7280]">
               {isEs
                 ? `Base: $${Math.round(result.gross).toLocaleString()} • Objeciones: $${Math.round(result.operator).toLocaleString()} • Subjetividad: $${Math.round(result.other).toLocaleString()} • Solidez: $${Math.round(result.operatingNet).toLocaleString()}`
                 : `Base: $${Math.round(result.gross).toLocaleString()} • Objections: $${Math.round(result.operator).toLocaleString()} • Subjectivity: $${Math.round(result.other).toLocaleString()} • Strength: $${Math.round(result.operatingNet).toLocaleString()}`}
             </div>
-            <div className="mt-1 text-firo-muted">
+            <div className="mt-1 text-[#6B7280]">
               {isEs
                 ? `Alineacion: $${Math.round(leaseMonthly).toLocaleString()} • Diferencial: $${Math.round(result.distributable).toLocaleString()}`
                 : `Alignment: $${Math.round(leaseMonthly).toLocaleString()} • Delta: $${Math.round(result.distributable).toLocaleString()}`}
             </div>
-            <div className="mt-1 text-firo-muted">
+            <div className="mt-1 text-[#6B7280]">
               {isEs
                 ? `Peso de evidencia: $${Math.round(result.investor).toLocaleString()} • Ruido interno: $${Math.round(result.firoFee).toLocaleString()}`
                 : `Evidence weight: $${Math.round(result.investor).toLocaleString()} • Internal noise: $${Math.round(result.firoFee).toLocaleString()}`}
             </div>
-            <div className="mt-1 text-firo-muted">
+            <div className="mt-1 text-[#6B7280]">
               {isEs
                 ? `Cobertura del argumento: ${result.leaseCoverage.toFixed(2)}x`
                 : `Argument coverage: ${result.leaseCoverage.toFixed(2)}x`}
             </div>
-            <div className="mt-1 text-firo-muted">
+            <div className="mt-1 text-[#6B7280]">
               {isEs
                 ? `Horizonte de adopcion: ${contractMonths} semanas • Ajuste inicial: ${hardCommitMonths} semanas`
                 : `Adoption horizon: ${contractMonths} weeks • Initial adjustment: ${hardCommitMonths} weeks`}
             </div>
-            <div className="mt-1 text-firo-muted">
+            <div className="mt-1 text-[#6B7280]">
               {isEs
                 ? `Reserva de contexto (${reserveMonths} iteraciones): $${Math.round(result.reserveRequired).toLocaleString()}`
                 : `Context reserve (${reserveMonths} iterations): $${Math.round(result.reserveRequired).toLocaleString()}`}
             </div>
-            <div className="mt-1 text-firo-muted">
+            <div className="mt-1 text-[#6B7280]">
               {isEs
                 ? `Impacto acumulado en ${contractMonths} semanas: $${Math.round(result.investorTermTotal).toLocaleString()}`
                 : `Accumulated impact over ${contractMonths} weeks: $${Math.round(result.investorTermTotal).toLocaleString()}`}
@@ -202,7 +202,7 @@ function Slider({
     <div>
       <div className="flex items-center justify-between text-sm">
         <span className="font-medium">{label}</span>
-        <span className="text-firo-muted">
+        <span className="text-[#6B7280]">
           {value}{suffix ?? ""}
         </span>
       </div>
@@ -222,7 +222,7 @@ function Info({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="rounded-2xl border border-[#E5E7EB] bg-white p-4">
       <div className="text-sm font-semibold">{title}</div>
-      <div className="mt-1 text-sm text-firo-muted">{desc}</div>
+      <div className="mt-1 text-sm text-[#6B7280]">{desc}</div>
     </div>
   );
 }

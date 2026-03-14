@@ -82,21 +82,21 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
               {isEs ? (
                 <>
                   Publica tus vacantes desde Tinkko y recibe
-                  <span className="text-[#A7683D]">
+                  <span className="text-[#FF6B00]">
                     {" "}talento especializado con respaldo de PeakU.
                   </span>
                 </>
               ) : (
                 <>
                   Stop hiring blind. Launch your openings through Tinkko and get
-                  <span className="text-[#A7683D]">
+                  <span className="text-[#FF6B00]">
                     {" "}specialized talent powered by PeakU.
                   </span>
                 </>
               )}
             </h1>
 
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-firo-muted md:text-lg">
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-[#6B7280] md:text-lg">
               {isEs
                 ? "La alianza Tinkko + PeakU conecta tu empresa con talento especializado en LatAm, evaluaciones técnicas y reportes para decidir con más claridad."
                 : "The Tinkko + PeakU alliance gives your company access to specialized LatAm talent, technical assessments, and decision-ready candidate reports."}
@@ -111,7 +111,7 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
               </a>
               <a
                 href="#beneficios"
-                className="tabular rounded-lg border border-black px-5 py-3 text-sm font-semibold text-[#435C3D] transition hover:bg-white/70"
+                className="tabular rounded-lg border border-black px-5 py-3 text-sm font-semibold text-black transition hover:bg-white/70"
               >
                 {isEs ? "Ver beneficios" : "View benefits"}
               </a>
@@ -119,16 +119,16 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
 
             <div className="mt-10 grid max-w-2xl grid-cols-1 gap-4 text-sm md:grid-cols-3">
               <div className="rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
-                <div className="text-firo-muted">{isEs ? "Aplicaciones por vacante" : "Applications per opening"}</div>
+                <div className="text-[#6B7280]">{isEs ? "Aplicaciones por vacante" : "Applications per opening"}</div>
                 <div className="tabular mt-1 text-xl font-semibold text-black">+<span data-counter>0</span></div>
               </div>
               <div className="rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
-                <div className="text-firo-muted">{isEs ? "Base de talento" : "Talent network"}</div>
-                <div className="mt-1 text-xl font-semibold text-[#435C3D]">{isEs ? "Especializado" : "Specialized"}</div>
+                <div className="text-[#6B7280]">{isEs ? "Base de talento" : "Talent network"}</div>
+                <div className="mt-1 text-xl font-semibold text-black">{isEs ? "Especializado" : "Specialized"}</div>
               </div>
               <div className="rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
-                <div className="text-firo-muted">{isEs ? "Calidad de selección" : "Screening quality"}</div>
-                <div className="mt-1 text-xl font-semibold text-[#A7683D]">{isEs ? "Pruebas + reportes" : "Assessments + reports"}</div>
+                <div className="text-[#6B7280]">{isEs ? "Calidad de selección" : "Screening quality"}</div>
+                <div className="mt-1 text-xl font-semibold text-[#FF6B00]">{isEs ? "Pruebas + reportes" : "Assessments + reports"}</div>
               </div>
             </div>
           </div>

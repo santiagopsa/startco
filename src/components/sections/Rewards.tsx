@@ -12,11 +12,11 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
-            <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Alianza Tinkko + PeakU" : "Tinkko + PeakU alliance"}</div>
+            <div className="tabular text-sm font-semibold text-black">{isEs ? "Alianza Tinkko + PeakU" : "Tinkko + PeakU alliance"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
               {isEs ? "Toda la información de candidatos en un solo sistema" : "All candidate intelligence in one system"}
             </h2>
-            <p className="mt-4 text-firo-muted">
+            <p className="mt-4 text-[#6B7280]">
               {isEs
                 ? "Tu equipo accede a perfiles completos, resultados de evaluación y recomendaciones para priorizar mejores entrevistas."
                 : "Your team gets complete profiles, assessment outcomes, and recommendations to prioritize stronger interviews."}
@@ -48,8 +48,8 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
 function Loot({ title, value, accent = false }: { title: string; value: string; accent?: boolean }) {
   return (
     <div className="rounded-lg border border-[#E5E7EB] bg-white p-5 shadow-soft">
-      <div className="tabular text-xs font-semibold text-firo-muted">{title}</div>
-      <div className={`mt-2 text-xl font-semibold ${accent ? "text-[#A7683D]" : ""}`}>{value}</div>
+      <div className="tabular text-xs font-semibold text-[#6B7280]">{title}</div>
+      <div className={`mt-2 text-xl font-semibold ${accent ? "text-[#FF6B00]" : ""}`}>{value}</div>
     </div>
   );
 }

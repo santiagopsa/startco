@@ -94,11 +94,11 @@ export default function Levels({ locale = "en" }: LevelsProps) {
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-start">
           <div className="md:sticky md:top-28">
-            <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Proceso" : "Process"}</div>
+            <div className="tabular text-sm font-semibold text-black">{isEs ? "Proceso" : "Process"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
               {isEs ? "Cómo contratan mejor las empresas con Tinkko + PeakU" : "How teams hire better with Tinkko + PeakU"}
             </h2>
-            <p className="mt-4 text-firo-muted">
+            <p className="mt-4 text-[#6B7280]">
               {isEs
                 ? "Combinamos alcance, evaluación y reportes para que cada vacante se convierta en una decisión más rápida y mejor respaldada."
                 : "We combine reach, assessments, and reporting so each opening becomes a faster, better-backed decision."}
@@ -113,7 +113,7 @@ export default function Levels({ locale = "en" }: LevelsProps) {
                 className="group rounded-lg border border-[#E5E7EB] bg-white p-6 shadow-soft transition hover:-translate-y-0.5"
               >
                 <div className="flex items-center justify-between">
-                  <div className="tabular text-xs font-semibold text-firo-muted">{l.level}</div>
+                  <div className="tabular text-xs font-semibold text-[#6B7280]">{l.level}</div>
                   <div className="h-2 w-2 rounded-full bg-[#FF6B00] opacity-70 group-hover:opacity-100" />
                 </div>
                 <div className="mt-2 text-xl font-semibold tracking-tight">{l.title}</div>
@@ -134,7 +134,7 @@ export default function Levels({ locale = "en" }: LevelsProps) {
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-lg border border-[#E5E7EB] bg-white p-4">
-      <div className="tabular text-xs font-semibold text-firo-muted">{label}</div>
+      <div className="tabular text-xs font-semibold text-[#6B7280]">{label}</div>
       <div className="mt-1 text-sm">{value}</div>
     </div>
   );

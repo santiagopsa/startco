@@ -40,15 +40,15 @@ export default function Nav({ locale = "en" }: NavProps) {
           />
         </a>
 
-        <nav className="hidden items-center gap-7 text-sm text-firo-muted md:flex">
-          <a href={benefitsHref} className="hover:text-[#435C3D]">{isEs ? "Beneficios" : "Benefits"}</a>
-          <a href={processHref} className="hover:text-[#435C3D]">{isEs ? "Proceso" : "Process"}</a>
+        <nav className="hidden items-center gap-7 text-sm text-[#6B7280] md:flex">
+          <a href={benefitsHref} className="hover:text-black">{isEs ? "Beneficios" : "Benefits"}</a>
+          <a href={processHref} className="hover:text-black">{isEs ? "Proceso" : "Process"}</a>
         </nav>
 
         <div className="flex items-center gap-3">
           <a
             href={switchHref}
-            className="tabular rounded-lg border border-[#E5E7EB] px-2.5 py-1 text-xs text-firo-muted hover:border-black hover:text-black"
+            className="tabular rounded-lg border border-[#E5E7EB] px-2.5 py-1 text-xs text-[#6B7280] hover:border-black hover:text-black"
           >
             {isEs ? "EN" : "ES"}
           </a>

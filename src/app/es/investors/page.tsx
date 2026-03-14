@@ -159,18 +159,18 @@ export default function InvestorsPageEs() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Modelos y unit economics
           </h2>
-          <p className="mt-4 text-firo-muted">
+          <p className="mt-4 text-[#6B7280]">
             Escenario base donde el inversionista financia leasing mensual y FIRO gestiona operacion.
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {economics.map((item) => (
               <div key={item.label} className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
-                <div className="text-sm font-semibold text-firo-muted">{item.label}</div>
+                <div className="text-sm font-semibold text-[#6B7280]">{item.label}</div>
                 <div className="mt-2 text-2xl font-semibold tracking-tight">{item.value}</div>
               </div>
             ))}
           </div>
-          <div className="mt-4 text-sm text-firo-muted">
+          <div className="mt-4 text-sm text-[#6B7280]">
             Nota: proyecciones por escenarios, no garantias.
           </div>
         </Container>
@@ -185,7 +185,7 @@ export default function InvestorsPageEs() {
             {risks.map((item) => (
               <div key={item.risk} className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
                 <div className="text-lg font-semibold">{item.risk}</div>
-                <div className="mt-2 text-firo-muted">{item.mitigation}</div>
+                <div className="mt-2 text-[#6B7280]">{item.mitigation}</div>
               </div>
             ))}
           </div>
@@ -197,7 +197,7 @@ export default function InvestorsPageEs() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Mapa competitivo
           </h2>
-          <p className="mt-4 text-firo-muted">
+          <p className="mt-4 text-[#6B7280]">
             Comparacion neutral de modelos actuales en el mercado.
           </p>
           <div className="mt-8 overflow-x-auto rounded-2xl border border-[#E5E7EB] bg-white">
@@ -213,8 +213,8 @@ export default function InvestorsPageEs() {
                 {competitors.map((c) => (
                   <tr key={c.model} className="border-b border-[#E5E7EB] last:border-b-0">
                     <td className="px-5 py-4 font-medium">{c.model}</td>
-                    <td className="px-5 py-4 text-firo-muted">{c.strengths}</td>
-                    <td className="px-5 py-4 text-firo-muted">{c.limits}</td>
+                    <td className="px-5 py-4 text-[#6B7280]">{c.strengths}</td>
+                    <td className="px-5 py-4 text-[#6B7280]">{c.limits}</td>
                   </tr>
                 ))}
               </tbody>
@@ -230,7 +230,7 @@ export default function InvestorsPageEs() {
             {faqs.map((item) => (
               <div key={item.q} className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
                 <div className="text-lg font-semibold">{item.q}</div>
-                <p className="mt-2 text-firo-muted">{item.a}</p>
+                <p className="mt-2 text-[#6B7280]">{item.a}</p>
               </div>
             ))}
           </div>
@@ -243,7 +243,7 @@ export default function InvestorsPageEs() {
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
               Contacto para inversionistas
             </h2>
-            <p className="mt-3 text-firo-muted">
+            <p className="mt-3 text-[#6B7280]">
               Deja tus datos y te enviamos el resumen completo con supuestos y pasos de onboarding.
             </p>
 
@@ -285,7 +285,7 @@ export default function InvestorsPageEs() {
               </button>
             </form>
 
-            <div className="mt-4 text-xs text-firo-muted">
+            <div className="mt-4 text-xs text-[#6B7280]">
               Proyecciones basadas en escenarios. No constituyen garantia de rendimiento.
             </div>
           </div>

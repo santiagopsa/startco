@@ -12,13 +12,13 @@ export default function Join({ locale = "en" }: JoinProps) {
         <div className="rounded-xl border border-[#E5E7EB] bg-white p-8 shadow-soft md:p-10">
           <div className="grid gap-8 md:grid-cols-2 md:items-start">
             <div>
-              <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Publica tu vacante" : "Start your hiring search"}</div>
+              <div className="tabular text-sm font-semibold text-black">{isEs ? "Publica tu vacante" : "Start your hiring search"}</div>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 {isEs
                   ? "Activa tu contratación con Tinkko + PeakU"
                   : "Activate hiring with Tinkko + PeakU"}
               </h2>
-              <p className="mt-3 text-firo-muted">
+              <p className="mt-3 text-[#6B7280]">
                 {isEs
                   ? "Completa el formulario y creamos un grupo de WhatsApp para publicar tu vacante y acompañarte en el proceso."
                   : "Fill out the form and we create a WhatsApp group to publish your opening and guide your process."}
@@ -72,7 +72,7 @@ export default function Join({ locale = "en" }: JoinProps) {
             </div>
           </div>
 
-          <div className="mt-6 text-xs text-firo-muted">
+          <div className="mt-6 text-xs text-[#6B7280]">
             {isEs
               ? "Con estos datos te escribimos y abrimos el grupo de WhatsApp para publicar tu vacante."
               : "With this info, we message you and open the WhatsApp group to publish your opening."}
