@@ -1,0 +1,18 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands:
+            - cd coworking-tinkko
+            - npm ci
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: coworking-tinkko/out
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - coworking-tinkko/node_modules/**
