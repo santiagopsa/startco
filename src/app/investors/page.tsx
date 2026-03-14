@@ -145,15 +145,15 @@ export default function InvestorsPage() {
           </h2>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {thesisPoints.map((point) => (
-              <div key={point} className="rounded-2xl border border-firo-line bg-firo-bg p-5">
-                <p className="text-firo-text">{point}</p>
+              <div key={point} className="rounded-2xl border border-[#E5E7EB] bg-white p-5">
+                <p className="text-black">{point}</p>
               </div>
             ))}
           </div>
         </Container>
       </section>
 
-      <section id="roi" className="bg-firo-bg py-20">
+      <section id="roi" className="bg-white py-20">
         <Container>
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Model and unit economics
@@ -163,7 +163,7 @@ export default function InvestorsPage() {
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {economics.map((item) => (
-              <div key={item.label} className="rounded-2xl border border-firo-line bg-white p-6 shadow-soft">
+              <div key={item.label} className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
                 <div className="text-sm font-semibold text-firo-muted">{item.label}</div>
                 <div className="mt-2 text-2xl font-semibold tracking-tight">{item.value}</div>
               </div>
@@ -182,7 +182,7 @@ export default function InvestorsPage() {
           </h2>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {risks.map((item) => (
-              <div key={item.risk} className="rounded-2xl border border-firo-line bg-firo-bg p-6">
+              <div key={item.risk} className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
                 <div className="text-lg font-semibold">{item.risk}</div>
                 <div className="mt-2 text-firo-muted">{item.mitigation}</div>
               </div>
@@ -191,7 +191,7 @@ export default function InvestorsPage() {
         </Container>
       </section>
 
-      <section className="bg-firo-bg py-20">
+      <section className="bg-white py-20">
         <Container>
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             Competitive map
@@ -199,9 +199,9 @@ export default function InvestorsPage() {
           <p className="mt-4 text-firo-muted">
             Neutral comparison of current market approaches.
           </p>
-          <div className="mt-8 overflow-x-auto rounded-2xl border border-firo-line bg-white">
+          <div className="mt-8 overflow-x-auto rounded-2xl border border-[#E5E7EB] bg-white">
             <table className="w-full min-w-[720px] text-left">
-              <thead className="border-b border-firo-line bg-firo-bg">
+              <thead className="border-b border-[#E5E7EB] bg-white">
                 <tr>
                   <th className="px-5 py-4 text-sm font-semibold">Model</th>
                   <th className="px-5 py-4 text-sm font-semibold">Strength</th>
@@ -210,7 +210,7 @@ export default function InvestorsPage() {
               </thead>
               <tbody>
                 {competitors.map((c) => (
-                  <tr key={c.model} className="border-b border-firo-line last:border-b-0">
+                  <tr key={c.model} className="border-b border-[#E5E7EB] last:border-b-0">
                     <td className="px-5 py-4 font-medium">{c.model}</td>
                     <td className="px-5 py-4 text-firo-muted">{c.strengths}</td>
                     <td className="px-5 py-4 text-firo-muted">{c.limits}</td>
@@ -227,7 +227,7 @@ export default function InvestorsPage() {
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">Investor FAQ</h2>
           <div className="mt-8 space-y-4">
             {faqs.map((item) => (
-              <div key={item.q} className="rounded-2xl border border-firo-line bg-firo-bg p-6">
+              <div key={item.q} className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
                 <div className="text-lg font-semibold">{item.q}</div>
                 <p className="mt-2 text-firo-muted">{item.a}</p>
               </div>
@@ -236,9 +236,9 @@ export default function InvestorsPage() {
         </Container>
       </section>
 
-      <section id="contacto" className="bg-firo-bg py-20">
+      <section id="contacto" className="bg-white py-20">
         <Container>
-          <div className="rounded-3xl border border-firo-line bg-white p-8 shadow-soft md:p-10">
+          <div className="rounded-3xl border border-[#E5E7EB] bg-white p-8 shadow-soft md:p-10">
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
               Investor contact
             </h2>
@@ -259,20 +259,20 @@ export default function InvestorsPage() {
               <input
                 name="name"
                 required
-                className="rounded-xl border border-firo-line bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
+                className="rounded-xl border border-[#E5E7EB] bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
                 placeholder="Name"
               />
               <input
                 name="email"
                 type="email"
                 required
-                className="rounded-xl border border-firo-line bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
+                className="rounded-xl border border-[#E5E7EB] bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
                 placeholder="Email"
               />
               <input
                 name="phone"
                 required
-                className="rounded-xl border border-firo-line bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
+                className="rounded-xl border border-[#E5E7EB] bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
                 placeholder="Phone"
               />
 

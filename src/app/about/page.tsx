@@ -48,14 +48,14 @@ export default function AboutPage() {
       <section className="bg-white py-20">
         <Container>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-2xl border border-firo-line bg-firo-bg p-6">
+            <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <h2 className="text-2xl font-semibold tracking-tight">Who FIRO is for</h2>
               <p className="mt-3 text-firo-muted">
                 Investors looking for exposure to robotics cashflow, and technology enthusiasts
                 who want to participate in the transition toward robotic operations.
               </p>
             </div>
-            <div className="rounded-2xl border border-firo-line bg-firo-bg p-6">
+            <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <h2 className="text-2xl font-semibold tracking-tight">Problem we solve</h2>
               <p className="mt-3 text-firo-muted">
                 Robotics demand is increasing, but operating execution and financing are fragmented.
@@ -66,25 +66,25 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <section id="thesis" className="bg-firo-bg py-20">
+      <section id="thesis" className="bg-white py-20">
         <Container>
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             How it works (high-level)
           </h2>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
-            <div className="rounded-2xl border border-firo-line bg-white p-6 shadow-soft">
+            <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">1. Finance lease</div>
               <p className="mt-2 text-firo-muted">
                 Investor enters by funding a monthly lease structure.
               </p>
             </div>
-            <div className="rounded-2xl border border-firo-line bg-white p-6 shadow-soft">
+            <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">2. Deploy</div>
               <p className="mt-2 text-firo-muted">
                 FIRO places units in demand environments with operator-led execution.
               </p>
             </div>
-            <div className="rounded-2xl border border-firo-line bg-white p-6 shadow-soft">
+            <div className="rounded-2xl border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <div className="text-sm font-semibold text-black">3. Track & payout</div>
               <p className="mt-2 text-firo-muted">
                 Gross, operating net, lease coverage, and payout splits are tracked monthly.
@@ -113,7 +113,7 @@ export default function AboutPage() {
 
       <section id="quote" className="bg-white py-20">
         <Container>
-          <div className="rounded-3xl border border-firo-line bg-firo-bg p-8 shadow-soft md:p-10">
+          <div className="rounded-3xl border border-[#E5E7EB] bg-white p-8 shadow-soft md:p-10">
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
               Contact FIRO
             </h2>
@@ -133,20 +133,20 @@ export default function AboutPage() {
               <input
                 name="name"
                 required
-                className="rounded-xl border border-firo-line bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
+                className="rounded-xl border border-[#E5E7EB] bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
                 placeholder="Name"
               />
               <input
                 name="email"
                 type="email"
                 required
-                className="rounded-xl border border-firo-line bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
+                className="rounded-xl border border-[#E5E7EB] bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
                 placeholder="Email"
               />
               <input
                 name="phone"
                 required
-                className="rounded-xl border border-firo-line bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
+                className="rounded-xl border border-[#E5E7EB] bg-white px-4 py-3 text-sm outline-none focus:border-firo-blue"
                 placeholder="Phone"
               />
 

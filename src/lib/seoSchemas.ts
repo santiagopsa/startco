@@ -2,9 +2,9 @@ export function getOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Vittiva Coworking",
-    url: "https://www.vittivacoworking.com",
-    logo: "https://www.vittivacoworking.com/favicon.png",
+    name: "Tinkko Coworking",
+    url: "https://www.tinkkocoworking.com",
+    logo: "https://www.tinkkocoworking.com/favicon.png",
     sameAs: [
       "https://www.instagram.com",
     ],
@@ -15,8 +15,8 @@ export function getWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Vittiva Coworking",
-    url: "https://www.vittivacoworking.com",
+    name: "Tinkko Coworking",
+    url: "https://www.tinkkocoworking.com",
     inLanguage: ["en", "es"],
   };
 }
@@ -55,18 +55,18 @@ export function getArticleSchema(params: {
     mainEntityOfPage: params.url,
     datePublished: params.datePublished,
     dateModified: params.dateModified ?? params.datePublished,
-    image: params.image ?? "https://www.vittivacoworking.com/assets/hero/dashboard.png",
+    image: params.image ?? "https://www.tinkkocoworking.com/assets/hero/dashboard.png",
     inLanguage: params.language ?? "en",
     author: {
       "@type": "Organization",
-      name: "Vittiva Coworking",
+      name: "Tinkko Coworking",
     },
     publisher: {
       "@type": "Organization",
-      name: "Vittiva Coworking",
+      name: "Tinkko Coworking",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.vittivacoworking.com/favicon.png",
+        url: "https://www.tinkkocoworking.com/favicon.png",
       },
     },
   };

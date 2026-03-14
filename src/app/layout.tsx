@@ -13,24 +13,24 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.vittivacoworking.com"),
+  metadataBase: new URL("https://www.tinkkocoworking.com"),
   title: {
-    default: "Vittiva Coworking Manizales",
-    template: "%s | Vittiva Coworking",
+    default: "Tinkko Coworking Manizales",
+    template: "%s | Tinkko Coworking",
   },
   description:
     "Espacios de coworking en Manizales con planes flexibles, salas de reuniones y comunidad para impulsar tus proyectos.",
   keywords: [
-    "Vittiva Coworking",
+    "Tinkko Coworking",
     "coworking Manizales",
     "oficinas compartidas",
     "salas de reuniones Manizales",
     "espacios de trabajo flexibles",
     "coworking Colombia",
   ],
-  authors: [{ name: "Vittiva Coworking", url: "https://www.vittivacoworking.com" }],
-  creator: "Vittiva Coworking",
-  publisher: "Vittiva Coworking",
+  authors: [{ name: "Tinkko Coworking", url: "https://www.tinkkocoworking.com" }],
+  creator: "Tinkko Coworking",
+  publisher: "Tinkko Coworking",
   alternates: {
     canonical: "/",
     languages: {
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "Vittiva Coworking",
-    title: "Vittiva Coworking Manizales",
+    siteName: "Tinkko Coworking",
+    title: "Tinkko Coworking Manizales",
     description:
       "Coworking en Manizales con espacios cómodos, conectividad y comunidad profesional.",
     images: [
@@ -67,13 +67,13 @@ export const metadata: Metadata = {
         url: "/assets/hero/dashboard.png",
         width: 1200,
         height: 800,
-        alt: "Vittiva Coworking Manizales",
+        alt: "Tinkko Coworking Manizales",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vittiva Coworking Manizales",
+    title: "Tinkko Coworking Manizales",
     description:
       "Espacios de coworking en Manizales para freelancers, emprendedores y equipos.",
     images: ["/assets/hero/dashboard.png"],

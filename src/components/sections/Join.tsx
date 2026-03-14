@@ -7,16 +7,16 @@ type JoinProps = {
 export default function Join({ locale = "en" }: JoinProps) {
   const isEs = locale === "es";
   return (
-    <section id="join" className="bg-firo-bg py-28">
+    <section id="join" className="bg-white py-28">
       <Container>
-        <div className="rounded-xl border border-[#CDD4D4] bg-[#F6F4E8] p-8 shadow-soft md:p-10">
+        <div className="rounded-xl border border-[#E5E7EB] bg-white p-8 shadow-soft md:p-10">
           <div className="grid gap-8 md:grid-cols-2 md:items-start">
             <div>
               <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Publica tu vacante" : "Start your hiring search"}</div>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 {isEs
-                  ? "Activa tu contratación con Vittiva + PeakU"
-                  : "Activate hiring with Vittiva + PeakU"}
+                  ? "Activa tu contratación con Tinkko + PeakU"
+                  : "Activate hiring with Tinkko + PeakU"}
               </h2>
               <p className="mt-3 text-firo-muted">
                 {isEs
@@ -25,31 +25,31 @@ export default function Join({ locale = "en" }: JoinProps) {
               </p>
             </div>
 
-            <div className="rounded-lg border border-[#CDD4D4] bg-[#F0EEDF] p-6 shadow-soft">
+            <div className="rounded-lg border border-[#E5E7EB] bg-white p-6 shadow-soft">
               <form
                 action="https://formsubmit.co/santiagopsa@gmail.com"
                 method="POST"
                 className="space-y-4"
               >
-                <input type="hidden" name="_subject" value="Vittiva + PeakU - crear grupo de WhatsApp para vacante" />
+                <input type="hidden" name="_subject" value="Tinkko + PeakU - crear grupo de WhatsApp para vacante" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
 
                 <div>
-                  <label className="mb-1 block text-sm font-medium text-firo-text" htmlFor="name">
+                  <label className="mb-1 block text-sm font-medium text-black" htmlFor="name">
                     {isEs ? "Nombre" : "Name"}
                   </label>
                   <input
                     id="name"
                     name="name"
                     required
-                    className="tabular w-full rounded-md border border-[#CDD4D4] bg-[#F6F4E8] px-4 py-3 text-sm text-firo-text outline-none focus:border-[#435C3D]"
+                    className="tabular w-full rounded-md border border-[#E5E7EB] bg-white px-4 py-3 text-sm text-black outline-none focus:border-black"
                     placeholder={isEs ? "Tu nombre completo" : "Your full name"}
                   />
                 </div>
 
                 <div>
-                  <label className="mb-1 block text-sm font-medium text-firo-text" htmlFor="whatsapp">
+                  <label className="mb-1 block text-sm font-medium text-black" htmlFor="whatsapp">
                     {isEs ? "WhatsApp" : "WhatsApp"}
                   </label>
                   <input
@@ -57,14 +57,14 @@ export default function Join({ locale = "en" }: JoinProps) {
                     name="whatsapp"
                     type="tel"
                     required
-                    className="tabular w-full rounded-md border border-[#CDD4D4] bg-[#F6F4E8] px-4 py-3 text-sm text-firo-text outline-none focus:border-[#435C3D]"
+                    className="tabular w-full rounded-md border border-[#E5E7EB] bg-white px-4 py-3 text-sm text-black outline-none focus:border-black"
                     placeholder={isEs ? "Ej: +57 300 123 4567" : "Ex: +57 300 123 4567"}
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="tabular w-full rounded-md bg-[#435C3D] px-5 py-3 text-sm font-semibold text-[#F0EEDF] transition hover:brightness-95"
+                  className="tabular w-full rounded-md bg-black px-5 py-3 text-sm font-semibold text-white transition hover:brightness-95"
                 >
                   {isEs ? "Crear grupo de WhatsApp" : "Create WhatsApp group"}
                 </button>

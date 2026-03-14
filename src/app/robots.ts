@@ -16,7 +16,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.vittivacoworking.com/sitemap.xml",
-    host: "https://www.vittivacoworking.com",
+    sitemap: "https://www.tinkkocoworking.com/sitemap.xml",
+    host: "https://www.tinkkocoworking.com",
   };
 }

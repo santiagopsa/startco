@@ -8,11 +8,11 @@ type RewardsProps = {
 export default function Rewards({ locale = "en" }: RewardsProps) {
   const isEs = locale === "es";
   return (
-    <section id="resultados" className="bg-firo-bg py-28 text-firo-text">
+    <section id="resultados" className="bg-white py-28 text-black">
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
-            <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Alianza Vittiva + PeakU" : "Vittiva + PeakU alliance"}</div>
+            <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Alianza Tinkko + PeakU" : "Tinkko + PeakU alliance"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
               {isEs ? "Toda la información de candidatos en un solo sistema" : "All candidate intelligence in one system"}
             </h2>
@@ -29,7 +29,7 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
             </div>
           </div>
 
-          <div className="relative rounded-lg border border-[#CDD4D4] bg-[#F6F4E8] p-4 shadow-soft">
+          <div className="relative rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
             <Image
               src="/assets/hero/dashboard.png"
               alt="PeakU dashboard"
@@ -47,7 +47,7 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
 
 function Loot({ title, value, accent = false }: { title: string; value: string; accent?: boolean }) {
   return (
-    <div className="rounded-lg border border-[#CDD4D4] bg-[#F6F4E8] p-5 shadow-soft">
+    <div className="rounded-lg border border-[#E5E7EB] bg-white p-5 shadow-soft">
       <div className="tabular text-xs font-semibold text-firo-muted">{title}</div>
       <div className={`mt-2 text-xl font-semibold ${accent ? "text-[#A7683D]" : ""}`}>{value}</div>
     </div>

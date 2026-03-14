@@ -2,23 +2,23 @@
 @config "../../tailwind.config.js";
 
 @theme {
-  --color-firo-navy: #435c3d;
-  --color-firo-blue: #435c3d;
-  --color-firo-violet: #a7683d;
-  --color-firo-bg: #f0eedf;
-  --color-firo-text: #2f3b2b;
-  --color-firo-muted: #6f7878;
-  --color-firo-line: #cdd4d4;
-  --color-firo-success: #435c3d;
-  --color-firo-warn: #a7683d;
-  --shadow-soft: 0 8px 24px rgba(47, 59, 43, 0.08);
+  --color-firo-navy: #000000;
+  --color-firo-blue: #000000;
+  --color-firo-violet: #FF6B00;
+  --color-firo-bg: #FFFFFF;
+  --color-firo-text: #000000;
+  --color-firo-muted: #4B5563;
+  --color-firo-line: #E5E7EB;
+  --color-firo-success: #FF6B00;
+  --color-firo-warn: #FF6B00;
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 :root{
-  --bg:#F0EEDF;
-  --text:#2F3B2B;
-  --accent:#A7683D;
-  --line:#CDD4D4;
+  --bg:#FFFFFF;
+  --text:#000000;
+  --accent:#FF6B00;
+  --line:#E5E7EB;
   /* Degular is not bundled in this repo; this maps brand intent to existing fonts. */
   --font-degular: var(--font-space-grotesk);
   --font-tabular: var(--font-inter);

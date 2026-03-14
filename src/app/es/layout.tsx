@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Vittiva Coworking | Manizales",
+  title: "Tinkko Coworking | Manizales",
   description:
     "Espacios de coworking en Manizales con planes flexibles, salas de reuniones y comunidad para impulsar tus proyectos.",
   alternates: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: "es_ES",
     url: "/es",
-    title: "Vittiva Coworking | Manizales",
+    title: "Tinkko Coworking | Manizales",
     description:
       "Coworking en Manizales con espacios cómodos, internet rápido y comunidad activa.",
   },

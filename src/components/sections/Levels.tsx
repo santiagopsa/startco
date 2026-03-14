@@ -8,7 +8,7 @@ const levels = [
   {
     level: "Step 1",
     title: "Launch your opening",
-    earns: "Publish through Vittiva in minutes",
+    earns: "Publish through Tinkko in minutes",
     does: "Activate the PeakU hiring lane for your team",
   },
   {
@@ -34,7 +34,7 @@ const levelsEs = [
   {
     level: "Paso 1",
     title: "Publica tu vacante",
-    earns: "Activa tu publicación desde Vittiva",
+    earns: "Activa tu publicación desde Tinkko",
     does: "Abre la ruta de contratación con PeakU para tu empresa",
   },
   {
@@ -90,13 +90,13 @@ export default function Levels({ locale = "en" }: LevelsProps) {
   }, []);
 
   return (
-    <section ref={root} id="proceso" className="bg-firo-bg py-28">
+    <section ref={root} id="proceso" className="bg-white py-28">
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-start">
           <div className="md:sticky md:top-28">
             <div className="tabular text-sm font-semibold text-[#435C3D]">{isEs ? "Proceso" : "Process"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Cómo contratan mejor las empresas con Vittiva + PeakU" : "How teams hire better with Vittiva + PeakU"}
+              {isEs ? "Cómo contratan mejor las empresas con Tinkko + PeakU" : "How teams hire better with Tinkko + PeakU"}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
@@ -110,11 +110,11 @@ export default function Levels({ locale = "en" }: LevelsProps) {
               <div
                 key={l.title}
                 data-level
-                className="group rounded-lg border border-[#CDD4D4] bg-[#F6F4E8] p-6 shadow-soft transition hover:-translate-y-0.5"
+                className="group rounded-lg border border-[#E5E7EB] bg-white p-6 shadow-soft transition hover:-translate-y-0.5"
               >
                 <div className="flex items-center justify-between">
                   <div className="tabular text-xs font-semibold text-firo-muted">{l.level}</div>
-                  <div className="h-2 w-2 rounded-full bg-[#A7683D] opacity-70 group-hover:opacity-100" />
+                  <div className="h-2 w-2 rounded-full bg-[#FF6B00] opacity-70 group-hover:opacity-100" />
                 </div>
                 <div className="mt-2 text-xl font-semibold tracking-tight">{l.title}</div>
 
@@ -133,7 +133,7 @@ export default function Levels({ locale = "en" }: LevelsProps) {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-[#CDD4D4] bg-[#F0EEDF] p-4">
+    <div className="rounded-lg border border-[#E5E7EB] bg-white p-4">
       <div className="tabular text-xs font-semibold text-firo-muted">{label}</div>
       <div className="mt-1 text-sm">{value}</div>
     </div>

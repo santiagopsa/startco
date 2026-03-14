@@ -43,7 +43,7 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
   );
 
   return (
-    <section id="roi" className="bg-firo-bg py-24">
+    <section id="roi" className="bg-white py-24">
       <Container>
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
@@ -59,7 +59,7 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
                 : "Use this structure to turn a recommendation into a conversation with context, evidence, and shared criteria."}
             </p>
 
-            <div className="mt-8 space-y-6 rounded-2xl border border-firo-line bg-firo-bg p-6">
+            <div className="mt-8 space-y-6 rounded-2xl border border-[#E5E7EB] bg-white p-6">
               <Slider label={isEs ? "Evidencias clave por candidato" : "Key evidence points per candidate"} value={days} min={4} max={24} onChange={setDays} />
               <Slider label={isEs ? "Claridad del reporte (0-1500)" : "Report clarity score (0-1500)"} value={rate} min={300} max={1500} onChange={setRate} />
               <Slider
@@ -95,7 +95,7 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
                 const distributable = operatingNet - s.leaseMonthly;
                 const investor = Math.max(0, distributable * investorShare);
                 return (
-                  <div key={s.name} className="rounded-2xl border border-firo-line bg-white p-4">
+                  <div key={s.name} className="rounded-2xl border border-[#E5E7EB] bg-white p-4">
                     <div className="text-xs font-semibold text-firo-muted">{s.name}</div>
                     <div className="mt-1 text-lg font-semibold">${Math.round(investor).toLocaleString()}</div>
                     <div className="mt-1 text-xs text-firo-muted">
@@ -109,7 +109,7 @@ export default function RoiCalc({ locale = "en" }: RoiCalcProps) {
             </div>
           </div>
 
-          <div className="rounded-3xl border border-firo-line bg-white p-8 text-firo-text shadow-soft">
+          <div className="rounded-3xl border border-[#E5E7EB] bg-white p-8 text-black shadow-soft">
             <div className="text-sm text-firo-muted">{isEs ? "Indicador estimado de respaldo interno" : "Estimated internal support indicator"}</div>
             <div className="mt-2 text-4xl font-semibold tracking-tight">
               ${Math.round(result.investor).toLocaleString()}
@@ -220,7 +220,7 @@ function Slider({
 
 function Info({ title, desc }: { title: string; desc: string }) {
   return (
-    <div className="rounded-2xl border border-firo-line bg-firo-bg p-4">
+    <div className="rounded-2xl border border-[#E5E7EB] bg-white p-4">
       <div className="text-sm font-semibold">{title}</div>
       <div className="mt-1 text-sm text-firo-muted">{desc}</div>
     </div>

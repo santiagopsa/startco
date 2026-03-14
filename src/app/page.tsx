@@ -8,23 +8,23 @@ import Rewards from "@/components/sections/Rewards";
 import Join from "@/components/sections/Join";
 
 export const metadata: Metadata = {
-  title: "Vittiva x PeakU | Hire Better, Move Faster",
+  title: "Tinkko x PeakU | Hire Better, Move Faster",
   description:
-    "Alianza Vittiva + PeakU para contratar talento especializado en LatAm con evaluaciones y reportes por candidato.",
+    "Alianza Tinkko + PeakU para contratar talento especializado en LatAm con evaluaciones y reportes por candidato.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Vittiva x PeakU | Specialized Hiring Alliance",
+    title: "Tinkko x PeakU | Specialized Hiring Alliance",
     description:
-      "Publica vacantes con Vittiva y accede a talento especializado con respaldo de evaluación PeakU.",
+      "Publica vacantes con Tinkko y accede a talento especializado con respaldo de evaluación PeakU.",
     url: "/",
     images: [
       {
         url: "/assets/hero/dashboard.png",
         width: 1200,
         height: 800,
-        alt: "Vittiva x PeakU hiring dashboard",
+        alt: "Tinkko x PeakU hiring dashboard",
       },
     ],
   },

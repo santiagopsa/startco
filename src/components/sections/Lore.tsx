@@ -36,11 +36,11 @@ export default function Lore({ locale = "en" }: LoreProps) {
   }, []);
 
   return (
-    <section ref={root} id="beneficios" className="bg-firo-bg py-28 text-firo-text">
+    <section ref={root} id="beneficios" className="bg-white py-28 text-black">
       <Container>
         <div className="max-w-4xl">
           <div data-reveal className="tabular text-sm font-semibold text-[#435C3D]">
-            {isEs ? "Beneficios para la alianza Vittiva + PeakU" : "Benefits for Vittiva + PeakU alliance"}
+            {isEs ? "Beneficios para la alianza Tinkko + PeakU" : "Benefits for Tinkko + PeakU alliance"}
           </div>
           <h2 data-reveal className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
             {isEs
@@ -49,8 +49,8 @@ export default function Lore({ locale = "en" }: LoreProps) {
           </h2>
           <p data-reveal className="mt-4 text-firo-muted">
             {isEs
-              ? "Las empresas vinculadas a Vittiva obtienen acceso a la infraestructura de PeakU para contratar talento especializado en LatAm con mejor señal de evaluación."
-              : "Companies connected through Vittiva get access to PeakU's hiring infrastructure to attract specialized LatAm talent with better assessment signal."}
+              ? "Las empresas vinculadas a Tinkko obtienen acceso a la infraestructura de PeakU para contratar talento especializado en LatAm con mejor señal de evaluación."
+              : "Companies connected through Tinkko get access to PeakU's hiring infrastructure to attract specialized LatAm talent with better assessment signal."}
           </p>
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
@@ -75,7 +75,7 @@ export default function Lore({ locale = "en" }: LoreProps) {
 
 function Card({ title, desc }: { title: string; desc: string }) {
   return (
-    <div data-reveal className="rounded-lg border border-[#CDD4D4] bg-[#F6F4E8] p-6 shadow-soft">
+    <div data-reveal className="rounded-lg border border-[#E5E7EB] bg-white p-6 shadow-soft">
       <div className="font-semibold">{title}</div>
       <div className="mt-2 text-sm text-firo-muted">{desc}</div>
     </div>
