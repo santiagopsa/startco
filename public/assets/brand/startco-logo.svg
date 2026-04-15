@@ -1,0 +1,8 @@
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Inter, Arial, sans-serif" font-weight="700" font-size="32">
+    <text x="0" y="38" fill="#000000">ST</text>
+    <text x="100" y="38" fill="#000000">RTCO</text>
+  </g>
+  <polygon points="54,8 70,40 86,8 78,8 70,30 62,8" fill="#14B37D" />
+  <rect x="56" y="36" width="28" height="4" rx="2" fill="#14B37D" />
+</svg>

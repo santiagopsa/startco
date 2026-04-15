@@ -28,20 +28,15 @@ export default function Nav({ locale = "en" }: NavProps) {
   return (
     <div className="fixed inset-x-0 top-0 z-50 border-b border-[#E5E7EB] bg-white/92 text-black backdrop-blur-xl">
       <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between px-6 md:px-10">
-        <a
-          href={homeHref}
-          className="inline-flex items-center rounded-2xl bg-[#14B37D] px-3 py-2 shadow-sm"
-          aria-label="Go to main page"
-        >
-          <span className="mr-2 text-xs font-semibold uppercase tracking-[0.22em] text-white">
-            ST
-          </span>
-          <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-semibold text-black">
-            A
-          </span>
-          <span className="ml-2 text-xs font-semibold uppercase tracking-[0.22em] text-white">
-            RTCO
-          </span>
+        <a href={homeHref} className="inline-flex items-center" aria-label="Go to main page">
+          <picture>
+            <source srcSet="/assets/brand/startco-logo.png" type="image/png" />
+            <img
+              src="/assets/brand/startco-logo.svg"
+              alt="Startco logo"
+              className="h-10 w-auto"
+            />
+          </picture>
         </a>
 
         <nav className="hidden items-center gap-7 text-sm text-[#6B7280] md:flex">
