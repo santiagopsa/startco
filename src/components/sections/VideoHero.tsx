@@ -80,10 +80,7 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-6xl">
               {isEs ? (
-                <>
-                  Startco Medellín te ayuda a encontrar talento y hacer pruebas
-                  <span className="text-[#14B37D]"> sin costo</span>
-                </>
+                "Startco te ayuda a encontrar talento validado sin costo"
               ) : (
                 <>
                   Startco Medellín helps startups find talent and run tests
