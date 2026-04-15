@@ -2,9 +2,9 @@ export function getOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Tinkko Coworking",
-    url: "https://www.tinkkocoworking.com",
-    logo: "https://www.tinkkocoworking.com/favicon.png",
+    name: "Startco",
+    url: "https://startco.com",
+    logo: "https://startco.com/favicon.png",
     sameAs: [
       "https://www.instagram.com",
     ],
@@ -15,8 +15,8 @@ export function getWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Tinkko Coworking",
-    url: "https://www.tinkkocoworking.com",
+    name: "Startco",
+    url: "https://startco.com",
     inLanguage: ["en", "es"],
   };
 }
@@ -55,18 +55,18 @@ export function getArticleSchema(params: {
     mainEntityOfPage: params.url,
     datePublished: params.datePublished,
     dateModified: params.dateModified ?? params.datePublished,
-    image: params.image ?? "https://www.tinkkocoworking.com/assets/hero/dashboard.png",
+    image: params.image ?? "https://startco.com/assets/hero/dashboard.png",
     inLanguage: params.language ?? "en",
     author: {
       "@type": "Organization",
-      name: "Tinkko Coworking",
+      name: "Startco",
     },
     publisher: {
       "@type": "Organization",
-      name: "Tinkko Coworking",
+      name: "Startco",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.tinkkocoworking.com/favicon.png",
+        url: "https://startco.com/favicon.png",
       },
     },
   };

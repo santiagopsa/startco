@@ -29,18 +29,12 @@ export default function Nav({ locale = "en" }: NavProps) {
     <div className="fixed inset-x-0 top-0 z-50 border-b border-[#E5E7EB] bg-white/92 text-black backdrop-blur-xl">
       <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between px-6 md:px-10">
         <a href={homeHref} className="inline-flex items-center" aria-label="Go to main page">
-          <img
-            src="/assets/brand/descarga.png"
-            alt="Tinkko Coworking logo"
-            width={132}
-            height={40}
-            className="h-8 w-auto"
-          />
+          <span className="text-lg font-semibold tracking-tight text-black">Startco</span>
         </a>
 
         <nav className="hidden items-center gap-7 text-sm text-[#6B7280] md:flex">
           <a href={benefitsHref} className="hover:text-black">{isEs ? "Beneficios" : "Benefits"}</a>
-          <a href={processHref} className="hover:text-black">{isEs ? "Proceso" : "Process"}</a>
+          <a href={processHref} className="hover:text-black">{isEs ? "Cómo funciona" : "How it works"}</a>
         </nav>
 
         <div className="flex items-center gap-3">
@@ -54,7 +48,7 @@ export default function Nav({ locale = "en" }: NavProps) {
             href={joinHref}
             className="tabular rounded-lg bg-black px-3.5 py-2 text-sm font-semibold text-white transition hover:brightness-95 md:px-4"
           >
-            {isEs ? "Publicar oferta en PeakU" : "Start hiring on PeakU"}
+            {isEs ? "Únete al grupo" : "Join the group"}
           </a>
         </div>
       </div>

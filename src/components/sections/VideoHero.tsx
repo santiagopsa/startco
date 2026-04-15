@@ -74,32 +74,28 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
               </a>
             </div>
             <div className="inline-flex items-center gap-2 rounded-full border border-[#E5E7EB] bg-white/70 px-4 py-2 text-sm text-black">
-              <span className="h-2 w-2 rounded-full bg-black" />
-              {isEs ? "Tinkko + PeakU | Alianza de contratación" : "Tinkko + PeakU | Hiring alliance"}
+              <span className="h-2 w-2 rounded-full bg-[#14B37D]" />
+              {isEs ? "Startco Medellín | Evento de startups" : "Startco Medellín | Startup event"}
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-6xl">
               {isEs ? (
                 <>
-                  Publica tus vacantes desde Tinkko y recibe
-                  <span className="text-[#FF6B00]">
-                    {" "}talento especializado con respaldo de PeakU.
-                  </span>
+                  Startco Medellín te ayuda a encontrar talento y hacer pruebas
+                  <span className="text-[#14B37D]"> sin costo</span>
                 </>
               ) : (
                 <>
-                  Stop hiring blind. Launch your openings through Tinkko and get
-                  <span className="text-[#FF6B00]">
-                    {" "}specialized talent powered by PeakU.
-                  </span>
+                  Startco Medellín helps startups find talent and run tests
+                  <span className="text-[#14B37D]"> for free</span>
                 </>
               )}
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-[#6B7280] md:text-lg">
               {isEs
-                ? "La alianza Tinkko + PeakU conecta tu empresa con talento especializado en LatAm, evaluaciones técnicas y reportes para decidir con más claridad."
-                : "The Tinkko + PeakU alliance gives your company access to specialized LatAm talent, technical assessments, and decision-ready candidate reports."}
+                ? "Solo necesitamos tu nombre y WhatsApp. Armamos el grupo de Startco, definimos el cargo y los filtros, y te acompañamos en el proceso."
+                : "Just share your name and WhatsApp. We create the Startco group, define the role and filters, and guide you through the process."}
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -107,7 +103,7 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
                 href="#join"
                 className="tabular rounded-lg bg-black px-5 py-3 text-sm font-semibold text-white shadow-soft transition hover:brightness-95"
               >
-                {isEs ? "Publicar oferta en PeakU" : "Launch your opening on PeakU"}
+                {isEs ? "Únete al grupo" : "Join the group"}
               </a>
               <a
                 href="#beneficios"
@@ -119,16 +115,16 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
 
             <div className="mt-10 grid max-w-2xl grid-cols-1 gap-4 text-sm md:grid-cols-3">
               <div className="rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
-                <div className="text-[#6B7280]">{isEs ? "Aplicaciones por vacante" : "Applications per opening"}</div>
+                <div className="text-[#6B7280]">{isEs ? "Candidatos por vacante" : "Candidates per opening"}</div>
                 <div className="tabular mt-1 text-xl font-semibold text-black">+<span data-counter>250</span></div>
               </div>
               <div className="rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
-                <div className="text-[#6B7280]">{isEs ? "Base de talento" : "Talent network"}</div>
-                <div className="mt-1 text-xl font-semibold text-black">{isEs ? "Especializado" : "Specialized"}</div>
+                <div className="text-[#6B7280]">{isEs ? "Pruebas sin costo" : "Free tests"}</div>
+                <div className="mt-1 text-xl font-semibold text-black">{isEs ? "Incluidas" : "Included"}</div>
               </div>
               <div className="rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
-                <div className="text-[#6B7280]">{isEs ? "Calidad de selección" : "Screening quality"}</div>
-                <div className="mt-1 text-xl font-semibold text-[#FF6B00]">{isEs ? "Pruebas + reportes" : "Assessments + reports"}</div>
+                <div className="text-[#6B7280]">{isEs ? "Filtrado guiado" : "Guided screening"}</div>
+                <div className="mt-1 text-xl font-semibold text-[#14B37D]">{isEs ? "Grupo de WhatsApp" : "WhatsApp group"}</div>
               </div>
             </div>
           </div>

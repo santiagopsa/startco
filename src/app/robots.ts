@@ -18,7 +18,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.tinkkocoworking.com/sitemap.xml",
-    host: "https://www.tinkkocoworking.com",
+    sitemap: "https://startco.com/sitemap.xml",
+    host: "https://startco.com",
   };
 }

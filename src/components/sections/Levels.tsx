@@ -7,53 +7,53 @@ import { ensureGsap } from "@/lib/gsap";
 const levels = [
   {
     level: "Step 1",
-    title: "Launch your opening",
-    earns: "Publish through Tinkko in minutes",
-    does: "Activate the PeakU hiring lane for your team",
+    title: "Share your details",
+    earns: "Send your name and WhatsApp",
+    does: "We create the Startco group for your startup",
   },
   {
     level: "Step 2",
-    title: "Attract top applicants",
-    earns: "Receive stronger candidate flow",
-    does: "Source specialized LatAm profiles for key roles",
+    title: "Meet talent fast",
+    earns: "Access profiles ready to interview",
+    does: "Review candidates sourced for your role",
   },
   {
     level: "Step 3",
-    title: "Filter with real signal",
-    earns: "Run technical and behavioral assessments",
-    does: "Prioritize candidates with objective evidence",
+    title: "Run free tests",
+    earns: "Get assessments without cost",
+    does: "Use objective results to shortlist better",
   },
   {
     level: "Step 4",
-    title: "Decide with confidence",
-    earns: "Get a report for every finalist",
-    does: "Compare fit, skills, and recommendation in one place",
+    title: "Decide with clarity",
+    earns: "Compare candidates by fit and skill",
+    does: "Choose the best match for your startup",
   },
 ];
 const levelsEs = [
   {
     level: "Paso 1",
-    title: "Publica tu vacante",
-    earns: "Activa tu publicación desde Tinkko",
-    does: "Abre la ruta de contratación con PeakU para tu empresa",
+    title: "Comparte tus datos",
+    earns: "Danos tu nombre y WhatsApp",
+    does: "Creamos el grupo de Startco para tu startup",
   },
   {
     level: "Paso 2",
-    title: "Recibe candidatos top",
-    earns: "Obtén más flujo de postulaciones",
-    does: "Accede a talento especializado en LatAm para roles clave",
+    title: "Conoce talento rápido",
+    earns: "Accede a perfiles listos para entrevistar",
+    does: "Revisa candidatos alineados al rol",
   },
   {
     level: "Paso 3",
-    title: "Filtra con señal real",
-    earns: "Aplica pruebas técnicas y de personalidad",
-    does: "Prioriza perfiles con evidencia objetiva",
+    title: "Haz pruebas gratis",
+    earns: "Obtén evaluaciones sin costo",
+    does: "Usa resultados objetivos para filtrar mejor",
   },
   {
     level: "Paso 4",
-    title: "Decide con confianza",
-    earns: "Recibe reporte por cada finalista",
-    does: "Compara ajuste, habilidades y recomendación en un solo lugar",
+    title: "Decide con claridad",
+    earns: "Compara candidatos por ajuste y habilidades",
+    does: "Elige el mejor match para tu startup",
   },
 ];
 
@@ -94,14 +94,14 @@ export default function Levels({ locale = "en" }: LevelsProps) {
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-start">
           <div className="md:sticky md:top-28">
-            <div className="tabular text-sm font-semibold text-black">{isEs ? "Proceso" : "Process"}</div>
+            <div className="tabular text-sm font-semibold text-black">{isEs ? "Cómo funciona" : "How it works"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Cómo contratan mejor las empresas con Tinkko + PeakU" : "How teams hire better with Tinkko + PeakU"}
+              {isEs ? "Cómo participan las startups en Startco" : "How startups join Startco"}
             </h2>
             <p className="mt-4 text-[#6B7280]">
               {isEs
-                ? "Combinamos alcance, evaluación y reportes para que cada vacante se convierta en una decisión más rápida y mejor respaldada."
-                : "We combine reach, assessments, and reporting so each opening becomes a faster, better-backed decision."}
+                ? "Danos tu nombre y WhatsApp, abrimos el grupo de Startco y te apoyamos en el cargo y los filtros para atraer talento."
+                : "Send your name and WhatsApp, we open the Startco group and support you with role and filter setup to attract talent."}
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function Levels({ locale = "en" }: LevelsProps) {
               >
                 <div className="flex items-center justify-between">
                   <div className="tabular text-xs font-semibold text-[#6B7280]">{l.level}</div>
-                  <div className="h-2 w-2 rounded-full bg-[#FF6B00] opacity-70 group-hover:opacity-100" />
+                  <div className="h-2 w-2 rounded-full bg-[#14B37D] opacity-70 group-hover:opacity-100" />
                 </div>
                 <div className="mt-2 text-xl font-semibold tracking-tight">{l.title}</div>
 

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tinkko Coworking | Manizales",
+  title: "Startco Medellín | Encuentra talento",
   description:
-    "Espacios de coworking en Manizales con planes flexibles, salas de reuniones y comunidad para impulsar tus proyectos.",
+    "Evento Startco en Medellín para startups que buscan talento y pruebas gratis con sólo nombre y WhatsApp.",
   alternates: {
     canonical: "/es",
     languages: {
@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   openGraph: {
     locale: "es_ES",
     url: "/es",
-    title: "Tinkko Coworking | Manizales",
+    title: "Startco Medellín | Encuentra talento",
     description:
-      "Coworking en Manizales con espacios cómodos, internet rápido y comunidad activa.",
+      "Evento Startco en Medellín para startups que conectan con talento y evaluaciones sin costo.",
   },
 };
 

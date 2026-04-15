@@ -12,16 +12,16 @@ export default function Join({ locale = "en" }: JoinProps) {
         <div className="rounded-xl border border-[#E5E7EB] bg-white p-8 shadow-soft md:p-10">
           <div className="grid gap-8 md:grid-cols-2 md:items-start">
             <div>
-              <div className="tabular text-sm font-semibold text-black">{isEs ? "Publica tu vacante" : "Start your hiring search"}</div>
+              <div className="tabular text-sm font-semibold text-black">{isEs ? "Únete a Startco" : "Join Startco"}</div>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 {isEs
-                  ? "Activa tu contratación con Tinkko + PeakU"
-                  : "Activate hiring with Tinkko + PeakU"}
+                  ? "Participa en el evento y recibe talento sin costo"
+                  : "Join the event and access talent for free"}
               </h2>
               <p className="mt-3 text-[#6B7280]">
                 {isEs
-                  ? "Completa el formulario y creamos un grupo de WhatsApp para publicar tu vacante y acompañarte en el proceso."
-                  : "Fill out the form and we create a WhatsApp group to publish your opening and guide your process."}
+                  ? "Danos tu nombre y WhatsApp, armamos el grupo de Startco y te guiamos en la creación del cargo y los filtros."
+                  : "Give us your name and WhatsApp, we create the Startco group and guide you through role and filter setup."}
               </p>
             </div>
 
@@ -31,7 +31,7 @@ export default function Join({ locale = "en" }: JoinProps) {
                 method="POST"
                 className="space-y-4"
               >
-                <input type="hidden" name="_subject" value="Tinkko + PeakU - crear grupo de WhatsApp para vacante" />
+                <input type="hidden" name="_subject" value="Startco Medellín - crear grupo de WhatsApp" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
 
@@ -43,7 +43,7 @@ export default function Join({ locale = "en" }: JoinProps) {
                     id="name"
                     name="name"
                     required
-                    className="tabular w-full rounded-md border border-[#E5E7EB] bg-white px-4 py-3 text-sm text-black outline-none focus:border-black"
+                    className="tabular w-full rounded-md border border-[#E5E7EB] bg-white px-4 py-3 text-sm text-black outline-none focus:border-[#14B37D]"
                     placeholder={isEs ? "Tu nombre completo" : "Your full name"}
                   />
                 </div>
@@ -57,16 +57,16 @@ export default function Join({ locale = "en" }: JoinProps) {
                     name="whatsapp"
                     type="tel"
                     required
-                    className="tabular w-full rounded-md border border-[#E5E7EB] bg-white px-4 py-3 text-sm text-black outline-none focus:border-black"
+                    className="tabular w-full rounded-md border border-[#E5E7EB] bg-white px-4 py-3 text-sm text-black outline-none focus:border-[#14B37D]"
                     placeholder={isEs ? "Ej: +57 300 123 4567" : "Ex: +57 300 123 4567"}
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="tabular w-full rounded-md bg-black px-5 py-3 text-sm font-semibold text-white transition hover:brightness-95"
+                  className="tabular w-full rounded-md bg-[#14B37D] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-105"
                 >
-                  {isEs ? "Crear grupo de WhatsApp" : "Create WhatsApp group"}
+                  {isEs ? "Abrir grupo de WhatsApp" : "Open WhatsApp group"}
                 </button>
               </form>
             </div>
@@ -74,8 +74,8 @@ export default function Join({ locale = "en" }: JoinProps) {
 
           <div className="mt-6 text-xs text-[#6B7280]">
             {isEs
-              ? "Con estos datos te escribimos y abrimos el grupo de WhatsApp para publicar tu vacante."
-              : "With this info, we message you and open the WhatsApp group to publish your opening."}
+              ? "Con estos datos te escribimos y abrimos el grupo de WhatsApp para que tu startup encuentre talento y haga pruebas sin costo."
+              : "With this info, we message you and open the WhatsApp group so your startup can find talent and run tests for free."}
           </div>
         </div>
       </Container>

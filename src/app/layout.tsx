@@ -13,24 +13,24 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.tinkkocoworking.com"),
+  metadataBase: new URL("https://startco.com"),
   title: {
-    default: "Tinkko Coworking Manizales",
-    template: "%s | Tinkko Coworking",
+    default: "Startco Medellín",
+    template: "%s | Startco",
   },
   description:
-    "Espacios de coworking en Manizales con planes flexibles, salas de reuniones y comunidad para impulsar tus proyectos.",
+    "Evento Startco en Medellín para startups que buscan talento, pruebas sin costo y acompañamiento en la selección.",
   keywords: [
-    "Tinkko Coworking",
-    "coworking Manizales",
-    "oficinas compartidas",
-    "salas de reuniones Manizales",
-    "espacios de trabajo flexibles",
-    "coworking Colombia",
+    "Startco Medellín",
+    "talento startup",
+    "pruebas gratuitas",
+    "contratación Medellín",
+    "eventos startups",
+    "startups Colombia",
   ],
-  authors: [{ name: "Tinkko Coworking", url: "https://www.tinkkocoworking.com" }],
-  creator: "Tinkko Coworking",
-  publisher: "Tinkko Coworking",
+  authors: [{ name: "Startco", url: "https://startco.com" }],
+  creator: "Startco",
+  publisher: "Startco",
   alternates: {
     canonical: "/",
     languages: {
@@ -58,24 +58,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "Tinkko Coworking",
-    title: "Tinkko Coworking Manizales",
+    siteName: "Startco",
+    title: "Startco Medellín",
     description:
-      "Coworking en Manizales con espacios cómodos, conectividad y comunidad profesional.",
+      "Evento Startco en Medellín para startups que conectan con talento y pruebas sin costo.",
     images: [
       {
         url: "/assets/hero/dashboard.png",
         width: 1200,
         height: 800,
-        alt: "Tinkko Coworking Manizales",
+        alt: "Startco Medellín landing",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tinkko Coworking Manizales",
+    title: "Startco Medellín",
     description:
-      "Espacios de coworking en Manizales para freelancers, emprendedores y equipos.",
+      "Evento Startco en Medellín para startups que buscan talento y pruebas gratuitas.",
     images: ["/assets/hero/dashboard.png"],
   },
   category: "business",

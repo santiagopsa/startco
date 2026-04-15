@@ -12,27 +12,27 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
       <Container>
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
-            <div className="tabular text-sm font-semibold text-black">{isEs ? "Alianza Tinkko + PeakU" : "Tinkko + PeakU alliance"}</div>
+            <div className="tabular text-sm font-semibold text-black">{isEs ? "Startco Medellín" : "Startco Medellín"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Toda la información de candidatos en un solo sistema" : "All candidate intelligence in one system"}
+              {isEs ? "Talento, pruebas y apoyo en un solo lugar" : "Talent, tests, and support in one place"}
             </h2>
             <p className="mt-4 text-[#6B7280]">
               {isEs
-                ? "Tu equipo accede a perfiles completos, resultados de evaluación y recomendaciones para priorizar mejores entrevistas."
-                : "Your team gets complete profiles, assessment outcomes, and recommendations to prioritize stronger interviews."}
+                ? "Tu startup recibe talento recomendado, evaluaciones gratuitas y acompañamiento para afinar el cargo y los filtros."
+                : "Your startup receives recommended talent, free assessments, and guidance to refine the role and filters."}
             </p>
 
             <div className="mt-8 grid gap-3 md:grid-cols-3">
-              <Loot title={isEs ? "Alcance de candidatos" : "Candidate reach"} value={isEs ? "200+ por vacante" : "200+ per opening"} />
-              <Loot title={isEs ? "Evaluación técnica" : "Technical assessment"} value={isEs ? "Guiada por PeakU" : "Guided by PeakU"} />
-              <Loot title={isEs ? "Reporte final" : "Final report"} value={isEs ? "Por candidato" : "Per candidate"} accent />
+              <Loot title={isEs ? "Talento" : "Talent"} value={isEs ? "200+ perfiles" : "200+ profiles"} />
+              <Loot title={isEs ? "Pruebas" : "Tests"} value={isEs ? "Sin costo" : "Free"} accent />
+              <Loot title={isEs ? "Comunidad" : "Community"} value={isEs ? "Grupo en WhatsApp" : "WhatsApp group"} />
             </div>
           </div>
 
           <div className="relative rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-soft">
             <Image
               src="/assets/hero/dashboard.png"
-              alt="PeakU dashboard"
+              alt="Startco Medellín dashboard"
               width={1400}
               height={900}
               className="relative w-full rounded-md"
@@ -49,7 +49,7 @@ function Loot({ title, value, accent = false }: { title: string; value: string; 
   return (
     <div className="rounded-lg border border-[#E5E7EB] bg-white p-5 shadow-soft">
       <div className="tabular text-xs font-semibold text-[#6B7280]">{title}</div>
-      <div className={`mt-2 text-xl font-semibold ${accent ? "text-[#FF6B00]" : ""}`}>{value}</div>
+      <div className={`mt-2 text-xl font-semibold ${accent ? "text-[#14B37D]" : ""}`}>{value}</div>
     </div>
   );
 }

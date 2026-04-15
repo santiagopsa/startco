@@ -8,23 +8,23 @@ import Rewards from "@/components/sections/Rewards";
 import Join from "@/components/sections/Join";
 
 export const metadata: Metadata = {
-  title: "Tinkko x PeakU | Hire Better, Move Faster",
+  title: "Startco Medellín | Encuentra talento sin costo",
   description:
-    "Alianza Tinkko + PeakU para contratar talento especializado en LatAm con evaluaciones y reportes por candidato.",
+    "Startco es un evento de startups en Medellín para encontrar talento y hacer pruebas sin costo con solo tu nombre y WhatsApp.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Tinkko x PeakU | Specialized Hiring Alliance",
+    title: "Startco Medellín | Conecta startups con talento",
     description:
-      "Publica vacantes con Tinkko y accede a talento especializado con respaldo de evaluación PeakU.",
+      "Participa en Startco Medellín: recibe talento, pruebas gratuitas y apoyo para definir cargos y filtros.",
     url: "/",
     images: [
       {
         url: "/assets/hero/dashboard.png",
         width: 1200,
         height: 800,
-        alt: "Tinkko x PeakU hiring dashboard",
+        alt: "Startco Medellín landing",
       },
     ],
   },

@@ -3,21 +3,21 @@
 
 @theme {
   --color-firo-navy: #000000;
-  --color-firo-blue: #000000;
-  --color-firo-violet: #FF6B00;
+  --color-firo-blue: #14B37D;
+  --color-firo-violet: #14B37D;
   --color-firo-bg: #FFFFFF;
   --color-firo-text: #000000;
   --color-firo-muted: #4B5563;
   --color-firo-line: #E5E7EB;
-  --color-firo-success: #FF6B00;
-  --color-firo-warn: #FF6B00;
+  --color-firo-success: #14B37D;
+  --color-firo-warn: #14B37D;
   --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 :root{
   --bg:#FFFFFF;
   --text:#000000;
-  --accent:#FF6B00;
+  --accent:#14B37D;
   --line:#E5E7EB;
   /* Degular is not bundled in this repo; this maps brand intent to existing fonts. */
   --font-degular: var(--font-space-grotesk);

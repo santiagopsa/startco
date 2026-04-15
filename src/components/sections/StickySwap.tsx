@@ -5,16 +5,16 @@ import Container from "../ui/Container";
 import { ensureGsap } from "@/lib/gsap";
 
 const cards = [
-  { title: "Complete candidate intelligence", desc: "Every finalist includes technical results, behavioral signal, and hiring recommendation." },
-  { title: "Faster shortlisting", desc: "Assessment-backed filtering helps your team focus only on high-fit profiles." },
-  { title: "Higher decision confidence", desc: "Hiring managers compare candidates with objective evidence, not only CVs." },
-  { title: "Alliance advantage", desc: "Tinkko companies publish through PeakU with a differentiated, high-signal channel." },
+  { title: "Free evaluation flow", desc: "Startups get assessments and candidate feedback without extra cost." },
+  { title: "Faster candidate match", desc: "Shortlist profiles that already fit your early-stage needs." },
+  { title: "Clear decision signals", desc: "Use objective test results and recommendations to pick faster." },
+  { title: "WhatsApp coordination", desc: "We create the group and keep communication simple as you hire." },
 ];
 const cardsEs = [
-  { title: "Inteligencia completa por candidato", desc: "Cada finalista incluye resultados técnicos, señal de personalidad y recomendación de contratación." },
-  { title: "Shortlist más rápido", desc: "El filtrado con evaluaciones permite enfocar al equipo en perfiles de mayor ajuste." },
-  { title: "Más confianza al decidir", desc: "Los líderes comparan candidatos con evidencia objetiva, no solo con hoja de vida." },
-  { title: "Ventaja de la alianza", desc: "Las empresas de Tinkko publican en PeakU por un canal diferenciado y de mayor señal." },
+  { title: "Flujo de evaluaciones gratis", desc: "Las startups reciben pruebas y retroalimentación sin costo adicional." },
+  { title: "Matching más rápido", desc: "Preselecciona perfiles que ya encajan con tus necesidades tempranas." },
+  { title: "Señales claras para decidir", desc: "Usa resultados objetivos para elegir más rápido." },
+  { title: "Coordinación por WhatsApp", desc: "Creamos el grupo y mantenemos la comunicación simple mientras contratas." },
 ];
 
 type StickySwapProps = {
@@ -60,12 +60,12 @@ export default function StickySwap({ locale = "en" }: StickySwapProps) {
           <div className="md:sticky md:top-24 md:h-fit">
             <div className="tabular text-sm font-semibold text-black">{isEs ? "Resultados esperados" : "Expected outcomes"}</div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Lo que desbloquea tu equipo con Tinkko + PeakU" : "What your team unlocks with Tinkko + PeakU"}
+              {isEs ? "Lo que ofrece Startco para tu startup" : "What Startco delivers for your startup"}
             </h2>
             <p className="mt-4 max-w-lg text-[#6B7280]">
               {isEs
-                ? "No es solo más volumen de postulaciones. Es mejor filtro y claridad para tomar decisiones de contratación."
-                : "This is not just more applicants. It is better filtering and clearer hiring decisions."}
+                ? "No es solo más candidatos. Es acceso a talento, pruebas gratis y acompañamiento para filtrar mejor." 
+                : "It is not just more candidates. It is access to talent, free tests, and support to filter better."}
             </p>
           </div>
 

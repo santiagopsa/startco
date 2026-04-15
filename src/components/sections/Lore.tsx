@@ -40,31 +40,31 @@ export default function Lore({ locale = "en" }: LoreProps) {
       <Container>
         <div className="max-w-4xl">
           <div data-reveal className="tabular text-sm font-semibold text-black">
-            {isEs ? "Beneficios para la alianza Tinkko + PeakU" : "Benefits for Tinkko + PeakU alliance"}
+            {isEs ? "Beneficios para startups en Startco" : "Benefits for startups at Startco"}
           </div>
           <h2 data-reveal className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
             {isEs
-              ? "Publica vacantes con una ventaja real de selección."
-              : "Post openings with a real hiring edge."}
+              ? "Encuentra talento y haz pruebas sin costo."
+              : "Find talent and run tests for free."}
           </h2>
           <p data-reveal className="mt-4 text-[#6B7280]">
             {isEs
-              ? "Las empresas vinculadas a Tinkko obtienen acceso a la infraestructura de PeakU para contratar talento especializado en LatAm con mejor señal de evaluación."
-              : "Companies connected through Tinkko get access to PeakU's hiring infrastructure to attract specialized LatAm talent with better assessment signal."}
+              ? "Startco Medellín conecta a las startups con talento seleccionado, evaluaciones gratuitas y acompañamiento para definir cargos y filtros."
+              : "Startco Medellín connects startups with selected talent, free evaluations, and support to define roles and filters."}
           </p>
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             <Card
-              title={isEs ? "Talento especializado, a escala" : "Specialized talent, at scale"}
-              desc={isEs ? "Conecta con perfiles de alto nivel para roles críticos de tecnología y crecimiento." : "Reach high-level profiles for critical technology and growth positions."}
+              title={isEs ? "Talento preparado" : "Ready talent"}
+              desc={isEs ? "Conecta con perfiles listos para roles de producto, tecnología y crecimiento." : "Connect with profiles ready for product, tech, and growth roles."}
             />
             <Card
-              title={isEs ? "Más volumen con calidad" : "More volume with quality"}
-              desc={isEs ? "Atrae más de 250 aplicaciones por vacante sin perder foco en candidatos de alto ajuste." : "Attract over 250 applications per opening without sacrificing candidate fit."}
+              title={isEs ? "Pruebas sin costo" : "Free tests"}
+              desc={isEs ? "Realiza pruebas técnicas sin costo para filtrar candidatos con más confianza." : "Run technical tests for free to screen candidates with more confidence."}
             />
             <Card
-              title={isEs ? "Evaluación con señal real" : "Signal-rich evaluation"}
-              desc={isEs ? "Usa evaluaciones técnicas y de comportamiento para shortlist más confiables." : "Use technical and behavioral assessments to build stronger shortlists."}
+              title={isEs ? "Acompañamiento" : "Guided support"}
+              desc={isEs ? "Te ayudamos a definir el cargo, seleccionar filtros y coordinar el grupo de WhatsApp." : "We help define the role, select filters, and coordinate the WhatsApp group."}
             />
           </div>
         </div>
